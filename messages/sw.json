@@ -189,5 +189,35 @@
       "sw": "Kiswahili",
       "ha": "Hausa"
     }
+  },
+  "WhyJoin": {
+    "badge": "Ufikiaji wa Mapema wa Kipekee",
+    "title": "Kwa Nini Ujiunga na Orodha ya Kusubiri?",
+    "subtitle": "Kuwa sehemu ya mapinduzi ya elimu na upate faida za kipekee",
+    "benefits": {
+      "title": "Faida za Kipekee",
+      "items": {
+        "firstAccess": "Ufikiaji wa kwanza tunapozindua",
+        "discount": "Punguzo la 50% kwa mwaka wako wa kwanza",
+        "premiumFeatures": "Vipengele vya juu vya bure kwa watumiaji wa kwanza",
+        "feedback": "Saidia kuunda bidhaa kwa maoni yako",
+        "betaTesting": "Fursa za majaribio ya awali"
+      }
+    },
+    "community": {
+      "title": "Jiunge na Jamii",
+      "stats": {
+        "studentsWaiting": "Wanafunzi wanasubiri",
+        "countriesRepresented": "Nchi zilizowakilishwa",
+        "spotsRemaining": "Nafasi zilizobaki"
+      }
+    },
+    "cta": {
+      "title": "Uko tayari kubadilisha jinsi unavyojifunza?",
+      "subtitle": "Jiunge na wanafunzi 1,247 kutoka nchi 23 wanasubiri mustakabali wa elimu",
+      "button": "Hifadhi Nafasi Yako",
+      "successMessage": "🎉 Umeingia! Karibu kwenye mustakabali wa kujifunza.",
+      "disclaimer": "Hakuna spam, jitoe wakati wowote. Nafasi 753 tu zimebaki kwa ufikiaji wa mapema."
+    }
   }
 }

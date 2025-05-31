@@ -189,5 +189,35 @@
       "sw": "Kiswahili",
       "ha": "Hausa"
     }
+  },
+  "WhyJoin": {
+    "badge": "Accès anticipé exclusif",
+    "title": "Pourquoi rejoindre la liste d'attente ?",
+    "subtitle": "Faites partie de la révolution de l'éducation et obtenez des avantages exclusifs",
+    "benefits": {
+      "title": "Avantages exclusifs",
+      "items": {
+        "firstAccess": "Premier accès lors du lancement",
+        "discount": "50% de réduction sur votre première année",
+        "premiumFeatures": "Fonctionnalités premium gratuites pour les premiers utilisateurs",
+        "feedback": "Aidez à façonner le produit avec vos commentaires",
+        "betaTesting": "Opportunités de test bêta"
+      }
+    },
+    "community": {
+      "title": "Rejoignez la communauté",
+      "stats": {
+        "studentsWaiting": "Étudiants en attente",
+        "countriesRepresented": "Pays représentés",
+        "spotsRemaining": "Places restantes"
+      }
+    },
+    "cta": {
+      "title": "Prêt à transformer votre apprentissage ?",
+      "subtitle": "Rejoignez 1 247 étudiants de 23 pays qui attendent le futur de l'éducation",
+      "button": "Réservez votre place",
+      "successMessage": "🎉 Vous êtes inscrit ! Bienvenue dans le futur de l'apprentissage.",
+      "disclaimer": "Pas de spam, désabonnement à tout moment. Il ne reste que 753 places pour l'accès anticipé."
+    }
   }
 }

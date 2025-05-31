@@ -189,5 +189,35 @@
       "sw": "Kiswahili",
       "ha": "Hausa"
     }
+  },
+  "WhyJoin": {
+    "badge": "Damar Shiga Ta Farko Ta Musamman",
+    "title": "Me Ya Sa Za Ka Shiga Jerin Jira?",
+    "subtitle": "Ka kasance cikin juyin ilimi kuma ka sami fa'idodi na musamman",
+    "benefits": {
+      "title": "Fa'idodi Na Musamman",
+      "items": {
+        "firstAccess": "Damar shiga ta farko lokacin da muka kaddamar",
+        "discount": "Rangwame na 50% a shekara ta farko",
+        "premiumFeatures": "Abubuwan da ke cikin mataki na biyan kuɗi kyauta ga masu amfani na farko",
+        "feedback": "Ka taimaka wajen tsara samfurin da ra'ayoyinka",
+        "betaTesting": "Damar gwaji na farko"
+      }
+    },
+    "community": {
+      "title": "Shiga Al'umma",
+      "stats": {
+        "studentsWaiting": "Ɗalibai suna jira",
+        "countriesRepresented": "Ƙasashe da aka wakilta",
+        "spotsRemaining": "Wuraren da suka rage"
+      }
+    },
+    "cta": {
+      "title": "Kana shirye don canza yadda kake koyo?",
+      "subtitle": "Ka shiga ɗalibai 1,247 daga ƙasashe 23 da suke jiran nan gaban ilimi",
+      "button": "Ka Ajiye Wurinka",
+      "successMessage": "🎉 Ka shiga! Barka da zuwa nan gaban koyo.",
+      "disclaimer": "Babu spam, ka fita daga rajista a kowane lokaci. Wurare 753 ne kawai suka rage don damar shiga na farko."
+    }
   }
 }

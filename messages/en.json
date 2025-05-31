@@ -189,5 +189,35 @@
       "sw": "Kiswahili",
       "ha": "Hausa"
     }
+  },
+  "WhyJoin": {
+    "badge": "Exclusive Early Access",
+    "title": "Why Join the Waitlist?",
+    "subtitle": "Be part of the education revolution and get exclusive benefits",
+    "benefits": {
+      "title": "Exclusive Benefits",
+      "items": {
+        "firstAccess": "First access when we launch",
+        "discount": "50% off your first year",
+        "premiumFeatures": "Free premium features for early adopters",
+        "feedback": "Help shape the product with feedback",
+        "betaTesting": "Beta testing opportunities"
+      }
+    },
+    "community": {
+      "title": "Join the Community",
+      "stats": {
+        "studentsWaiting": "Students waiting",
+        "countriesRepresented": "Countries represented",
+        "spotsRemaining": "Spots remaining"
+      }
+    },
+    "cta": {
+      "title": "Ready to Transform Your Learning?",
+      "subtitle": "Join 1,247 students from 23 countries who are waiting for the future of education",
+      "button": "Secure Your Spot",
+      "successMessage": "🎉 You're in! Welcome to the future of learning.",
+      "disclaimer": "No spam, unsubscribe anytime. Only 753 spots left for early access."
+    }
   }
 }

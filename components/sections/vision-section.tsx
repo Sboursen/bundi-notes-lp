@@ -1,35 +1,36 @@
-"use client"
-
-import { useTranslations } from "next-intl"
 import { Badge } from "@/components/ui/badge"
 import { Globe, Target, Heart } from "lucide-react"
 
 export function VisionSection() {
-  const t = useTranslations("Vision")
-
   return (
     <section id="vision" className="py-20 bg-brand-light">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <Badge variant="outline" className="border-brand-gold text-brand-gold bg-brand-gold/10 mb-6">
-              <Globe className="w-4 h-4 me-2" />
-              {t("badge")}
+              <Globe className="w-4 h-4 mr-2" />
+              UN SDG 4: Quality Education
             </Badge>
             <h2 className="text-3xl lg:text-5xl font-bold text-brand-black font-primary mb-6">
-              {t.rich("title", {
-                span: (chunks) => <span className="text-brand-gold">{chunks}</span>,
-              })}
+              Leveling Up Education <span className="text-brand-gold">Across Africa</span>
             </h2>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div className="space-y-6">
-              <h3 className="text-2xl font-bold text-brand-black font-primary">{t("story.heading")}</h3>
+              <h3 className="text-2xl font-bold text-brand-black font-primary">Six months later...</h3>
               <div className="space-y-4">
-                <p className="text-lg text-brand-black/80 font-secondary">{t("story.part1")}</p>
-                <p className="text-lg text-brand-black/80 font-secondary">{t("story.part2")}</p>
-                <p className="text-lg text-brand-gold font-secondary font-medium">{t("story.highlight")}</p>
+                <p className="text-lg text-brand-black/80 font-secondary">
+                  Idir no longer struggles in class. He records every lecture, asks questions to his AI study partner,
+                  and finally <em>understands</em> instead of just memorizing.
+                </p>
+                <p className="text-lg text-brand-black/80 font-secondary">
+                  His grades improved, but more importantly, his confidence soared. He's not just a better student—he's
+                  a more curious, engaged learner.
+                </p>
+                <p className="text-lg text-brand-gold font-secondary font-medium">
+                  This is the transformation we're building for every student, everywhere.
+                </p>
               </div>
             </div>
             <div className="relative">
@@ -43,19 +44,19 @@ export function VisionSection() {
           </div>
 
           <div className="text-center space-y-6">
-            <h3 className="text-2xl font-bold text-brand-black font-primary">{t("global.heading")}</h3>
+            <h3 className="text-2xl font-bold text-brand-black font-primary">From Morocco to Madagascar</h3>
             <p className="text-xl text-brand-black/70 font-secondary leading-relaxed">
-              {t.rich("global.description", {
-                span: (chunks) => <span className="text-brand-gold font-medium">{chunks}</span>,
-              })}
+              Every student deserves to understand, not just memorize. We're not just building an app—we're building a
+              movement toward
+              <span className="text-brand-gold font-medium"> quality education for all</span>.
             </p>
             <div className="flex items-center justify-center gap-8 text-sm text-brand-black/60">
               <div className="flex items-center gap-2">
                 <Target className="w-4 h-4" />
-                <span>{t("global.badge1")}</span>
+                <span>Supporting UN SDG 4</span>
               </div>
               <div className="w-1 h-1 bg-brand-silver rounded-full"></div>
-              <span>{t("global.badge2")}</span>
+              <span>Quality Education Across Africa</span>
             </div>
           </div>
         </div>
