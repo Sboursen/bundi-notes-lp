@@ -1,5 +1,6 @@
+import type React from "react"
 import { Montserrat, Lato } from "next/font/google"
-import { hasLocale, NextIntlClientProvider } from "next-intl"
+import { hasLocale, NextIntlClientProvider, getTranslations } from "next-intl"
 import { notFound } from "next/navigation"
 import { routing } from "@/i18n/routing"
 import "../globals.css"
@@ -19,6 +20,20 @@ const lato = Lato({
   display: "swap",
 })
 
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}) {
+  const { locale } = await params
+  const t = await getTranslations({ locale, namespace: "Metadata" })
+
+  return {
+    title: t("siteTitle"),
+    description: t("siteDescription"),
+  }
+}
+
 export default async function LocaleLayout({
   children,
   params,
@@ -27,7 +42,7 @@ export default async function LocaleLayout({
   params: Promise<{ locale: string }>
 }) {
   // Ensure that the incoming `locale` is valid
-  const {locale} = await params;
+  const { locale } = await params
   if (!hasLocale(routing.locales, locale)) {
     notFound()
   }

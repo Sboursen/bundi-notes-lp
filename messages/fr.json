@@ -219,6 +219,9 @@
       "button": "Réservez votre place",
       "successMessage": "🎉 Vous êtes inscrit ! Bienvenue dans le futur de l'apprentissage.",
       "disclaimer": "Pas de spam, désabonnement à tout moment. Il ne reste que 753 places pour l'accès anticipé."
+    },
+    "Hero": {
+      "emailPlaceholder": "Entrez votre email"
     }
   }
 }

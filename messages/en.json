@@ -220,5 +220,8 @@
       "successMessage": "🎉 You're in! Welcome to the future of learning.",
       "disclaimer": "No spam, unsubscribe anytime. Only 753 spots left for early access."
     }
+  },
+  "Hero": {
+    "emailPlaceholder": "Enter your email"
   }
 }

@@ -219,6 +219,9 @@
       "button": "Ka Ajiye Wurinka",
       "successMessage": "🎉 Ka shiga! Barka da zuwa nan gaban koyo.",
       "disclaimer": "Babu spam, ka fita daga rajista a kowane lokaci. Wurare 753 ne kawai suka rage don damar shiga na farko."
+    },
+    "Hero": {
+      "emailPlaceholder": "Shigar da imel ɗinka"
     }
   }
 }

@@ -76,7 +76,7 @@
       "step2": {
         "label": "Hatua ya 2",
         "title": "AI Inaelewa",
-        "description": "AI yetu inanakili na kuelewa kwa kina maudhui, ikiunda msingi wa maarifa unaotafutika na wenye akili kutoka kwa masomo yako."
+        "description": "AI yetu inanakili na kuelewa kwa kina maudhui, ikiunda msingi wa maarifa unaotafutaka na wenye akili kutoka kwa masomo yako."
       },
       "step3": {
         "label": "Hatua ya 3",
@@ -219,6 +219,9 @@
       "button": "Hifadhi Nafasi Yako",
       "successMessage": "🎉 Umeingia! Karibu kwenye mustakabali wa kujifunza.",
       "disclaimer": "Hakuna spam, jitoe wakati wowote. Nafasi 753 tu zimebaki kwa ufikiaji wa mapema."
+    },
+    "Hero": {
+      "emailPlaceholder": "Ingiza barua pepe yako"
     }
   }
 }
