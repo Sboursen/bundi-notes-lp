@@ -1,24 +1,12 @@
 "use client"
 
-import type React from "react"
-
-import { useState } from "react"
 import { useTranslations } from "next-intl"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
-import { ArrowRight, Users, Calendar } from "lucide-react"
+import { Users, Calendar } from "lucide-react"
+import { EmailCta } from "../email-cta"
 
 export function HeroSection() {
   const t = useTranslations("Header")
-  const [email, setEmail] = useState("")
-  const [isSubmitted, setIsSubmitted] = useState(false)
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    // Handle email submission
-    setIsSubmitted(true)
-  }
 
   return (
     <section id="hero-cta" className="relative overflow-hidden bg-brand-black text-white">
@@ -48,26 +36,7 @@ export function HeroSection() {
                 <span>{t("Hero.stats.countries")}</span>
               </div>
 
-              {!isSubmitted ? (
-                <form onSubmit={handleSubmit} className="flex gap-3 max-w-md">
-                  <Input
-                    type="email"
-                    placeholder={t("Hero.emailPlaceholder")}
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    className="flex-1 border-brand-light-text/30 bg-white/10 text-white placeholder:text-brand-light-text/60 focus:border-brand-gold"
-                    required
-                  />
-                  <Button type="submit" className="bg-brand-gold hover:bg-brand-gold/90 text-white px-6">
-                    {t("Hero.ctaButton")}
-                    <ArrowRight className="w-4 h-4 ms-2" />
-                  </Button>
-                </form>
-              ) : (
-                <div className="p-4 bg-brand-gold/20 border border-brand-gold/30 rounded-lg">
-                  <p className="text-brand-gold font-medium">{t("Hero.successMessage")}</p>
-                </div>
-              )}
+              <EmailCta variant="hero" translationKey="Hero" className="max-w-md" />
 
               <p className="text-sm text-brand-light-text/50">{t("Hero.belowCta")}</p>
             </div>

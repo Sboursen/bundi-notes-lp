@@ -1,23 +1,11 @@
 "use client"
-
-import type React from "react"
-
-import { useState } from "react"
 import { useTranslations } from "next-intl"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
 import { Badge } from "@/components/ui/badge"
-import { ArrowRight, Clock, Shield } from "lucide-react"
+import { Clock, Shield } from "lucide-react"
+import { EmailCta } from "../email-cta"
 
 export function FinalCtaSection() {
   const t = useTranslations("FinalCTA")
-  const [email, setEmail] = useState("")
-  const [isSubmitted, setIsSubmitted] = useState(false)
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsSubmitted(true)
-  }
 
   return (
     <section className="py-20 bg-gradient-to-br from-brand-gold to-brand-gold/80 text-white">
@@ -48,26 +36,13 @@ export function FinalCtaSection() {
               </div>
             </div>
 
-            {!isSubmitted ? (
-              <form onSubmit={handleSubmit} className="flex gap-3 max-w-md mx-auto">
-                <Input
-                  type="email"
-                  placeholder={t("emailPlaceholder")}
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  className="flex-1 bg-white/20 border-white/30 text-white placeholder:text-white/60 focus:border-white"
-                  required
-                />
-                <Button type="submit" className="bg-white text-brand-gold hover:bg-white/90 px-6">
-                  {t("ctaButton")}
-                  <ArrowRight className="w-4 h-4 ml-2" />
-                </Button>
-              </form>
-            ) : (
-              <div className="p-4 bg-white/20 border border-white/30 rounded-lg max-w-md mx-auto">
-                <p className="text-white font-medium">{t("successMessage")}</p>
-              </div>
-            )}
+            <EmailCta
+              variant="default"
+              translationKey="FinalCTA"
+              className="max-w-md mx-auto"
+              inputClassName="bg-white/20 border-white/30 text-white placeholder:text-white/60 focus:border-white"
+              buttonClassName="bg-white text-brand-gold hover:bg-white/90"
+            />
           </div>
 
           <div className="flex items-center justify-center gap-6 text-sm text-white/80">

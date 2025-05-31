@@ -1,24 +1,13 @@
 "use client"
 
-import type React from "react"
-
-import { useState } from "react"
 import { useTranslations } from "next-intl"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Check, Star, Users, Crown } from "lucide-react"
+import { EmailCta } from "../email-cta"
 
 export function WhyJoinSection() {
   const t = useTranslations("WhyJoin")
-  const [email, setEmail] = useState("")
-  const [isSubmitted, setIsSubmitted] = useState(false)
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsSubmitted(true)
-  }
 
   return (
     <section className="py-20 bg-white">
@@ -106,25 +95,7 @@ export function WhyJoinSection() {
               <h3 className="text-2xl font-bold text-brand-black font-primary mb-4">{t("cta.title")}</h3>
               <p className="text-brand-black/70 font-secondary mb-6">{t("cta.subtitle")}</p>
 
-              {!isSubmitted ? (
-                <form onSubmit={handleSubmit} className="flex gap-3 max-w-md mx-auto">
-                  <Input
-                    type="email"
-                    placeholder={t("cta.emailPlaceholder")}
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    className="flex-1 border-brand-silver focus:border-brand-gold"
-                    required
-                  />
-                  <Button type="submit" className="bg-brand-gold hover:bg-brand-gold/90 text-white px-6">
-                    {t("cta.button")}
-                  </Button>
-                </form>
-              ) : (
-                <div className="p-4 bg-brand-gold/20 border border-brand-gold/30 rounded-lg max-w-md mx-auto">
-                  <p className="text-brand-gold font-medium">{t("cta.successMessage")}</p>
-                </div>
-              )}
+              <EmailCta variant="default" translationKey="WhyJoin.cta" className="max-w-md mx-auto" />
 
               <p className="text-sm text-brand-black/50 mt-4">{t("cta.disclaimer")}</p>
             </CardContent>
