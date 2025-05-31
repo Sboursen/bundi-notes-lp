@@ -110,7 +110,7 @@ export function WhyJoinSection() {
                 <form onSubmit={handleSubmit} className="flex gap-3 max-w-md mx-auto">
                   <Input
                     type="email"
-                    placeholder={t("Hero.emailPlaceholder")}
+                    placeholder={t("cta.emailPlaceholder")}
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     className="flex-1 border-brand-silver focus:border-brand-gold"

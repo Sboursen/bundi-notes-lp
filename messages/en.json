@@ -47,7 +47,7 @@
   },
   "Solution": {
     "badge": "The Future of Learning",
-    "title": "Imagine if you could have a conversation with your lectures",
+    "title": "Imagine if you could have a <span>conversation</span> with your lectures",
     "subtitle": "We're building the AI study partner every student deserves. One that transforms passive note-taking into active, engaging learning.",
     "features": {
       "feature1": {
@@ -87,7 +87,7 @@
   },
   "Vision": {
     "badge": "UN SDG 4: Quality Education",
-    "title": "Leveling Up Education Across Africa",
+    "title": "Leveling Up Education <span>Across Africa</span>",
     "story": {
       "heading": "Six months later...",
       "part1": "Idir no longer struggles in class. He records every lecture, asks questions to his AI study partner, and finally understands instead of just memorizing.",
@@ -96,7 +96,7 @@
     },
     "global": {
       "heading": "From Morocco to Madagascar",
-      "description": "Every student deserves to understand, not just memorize. We're not just building an app—we're building a movement toward quality education for all.",
+      "description": "Every student deserves to understand, not just memorize. We're not just building an app—we're building a movement toward <span>quality education for all</span>.",
       "badge1": "Supporting UN SDG 4",
       "badge2": "Quality Education Across Africa"
     }
@@ -215,6 +215,7 @@
     "cta": {
       "title": "Ready to Transform Your Learning?",
       "subtitle": "Join 1,247 students from 23 countries who are waiting for the future of education",
+      "emailPlaceholder": "Enter your email",
       "button": "Secure Your Spot",
       "successMessage": "🎉 You're in! Welcome to the future of learning.",
       "disclaimer": "No spam, unsubscribe anytime. Only 753 spots left for early access."

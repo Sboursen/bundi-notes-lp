@@ -1,77 +1,72 @@
+"use client"
+
+import { useTranslations } from "next-intl"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 
 export function FaqSection() {
+  const t = useTranslations("FAQ")
+
   return (
     <section id="faq" className="py-20 bg-brand-light">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-brand-black font-primary mb-6">
-              Frequently Asked Questions
-            </h2>
-            <p className="text-xl text-brand-black/70 font-secondary">
-              Everything you need to know about joining the waitlist
-            </p>
+            <h2 className="text-3xl lg:text-4xl font-bold text-brand-black font-primary mb-6">{t("title")}</h2>
+            <p className="text-xl text-brand-black/70 font-secondary">{t("subtitle")}</p>
           </div>
 
           <Accordion type="single" collapsible className="space-y-4">
             <AccordionItem value="item-1" className="border border-brand-silver/30 rounded-lg px-6">
               <AccordionTrigger className="text-left font-primary font-semibold text-brand-black hover:text-brand-gold">
-                When will Bundi Notes be available?
+                {t("questions.q1.question")}
               </AccordionTrigger>
               <AccordionContent className="text-brand-black/70 font-secondary">
-                We're launching in Spring 2026. Waitlist members will get early access before the public launch, with
-                beta testing opportunities starting in Fall 2025.
+                {t("questions.q1.answer")}
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-2" className="border border-brand-silver/30 rounded-lg px-6">
               <AccordionTrigger className="text-left font-primary font-semibold text-brand-black hover:text-brand-gold">
-                Will it cost money?
+                {t("questions.q2.question")}
               </AccordionTrigger>
               <AccordionContent className="text-brand-black/70 font-secondary">
-                Bundi Notes will have both free and premium tiers. Waitlist members get 50% off their first year and
-                access to premium features during the early access period.
+                {t("questions.q2.answer")}
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-3" className="border border-brand-silver/30 rounded-lg px-6">
               <AccordionTrigger className="text-left font-primary font-semibold text-brand-black hover:text-brand-gold">
-                What devices will it work on?
+                {t("questions.q3.question")}
               </AccordionTrigger>
               <AccordionContent className="text-brand-black/70 font-secondary">
-                Bundi Notes will be available on web, iOS, and Android. We're designing it to work seamlessly across all
-                your devices, so you can record on your phone and study on your laptop.
+                {t("questions.q3.answer")}
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-4" className="border border-brand-silver/30 rounded-lg px-6">
               <AccordionTrigger className="text-left font-primary font-semibold text-brand-black hover:text-brand-gold">
-                How do I know this is real?
+                {t("questions.q4.question")}
               </AccordionTrigger>
               <AccordionContent className="text-brand-black/70 font-secondary">
-                We're committed to transparency. Waitlist members receive regular development updates, behind-the-scenes
-                content, and early previews of the product as we build it.
+                {t("questions.q4.answer")}
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-5" className="border border-brand-silver/30 rounded-lg px-6">
               <AccordionTrigger className="text-left font-primary font-semibold text-brand-black hover:text-brand-gold">
-                What if I change my mind?
+                {t("questions.q5.question")}
               </AccordionTrigger>
               <AccordionContent className="text-brand-black/70 font-secondary">
-                No problem at all! You can unsubscribe from the waitlist at any time. We respect your inbox and will
-                never spam you.
+                {t("questions.q5.answer")}
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-6" className="border border-brand-silver/30 rounded-lg px-6">
               <AccordionTrigger className="text-left font-primary font-semibold text-brand-black hover:text-brand-gold">
-                Will it work in my language?
+                {t("questions.q6.question")}
               </AccordionTrigger>
               <AccordionContent className="text-brand-black/70 font-secondary">
-                We're starting with Arabic, English, and French, with plans to add more African languages based on
-                community demand. Let us know what language you need!
+                {t("questions.q6.answer")}
               </AccordionContent>
             </AccordionItem>
           </Accordion>

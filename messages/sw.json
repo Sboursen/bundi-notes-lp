@@ -47,7 +47,7 @@
   },
   "Solution": {
     "badge": "Siku Zijazo za Kujifunza",
-    "title": "Fikiria kama ungeweza kuwa na mazungumzo na masomo yako",
+    "title": "Fikiria kama ungeweza kuwa na <span>mazungumzo</span> na masomo yako",
     "subtitle": "Tunajenga mshirika wa kujifunza wa AI ambaye kila mwanafunzi anastahili. Mmoja anayebadilisha kuchukua maelezo ya kimya kuwa kujifunza kwa ushiriki.",
     "features": {
       "feature1": {
@@ -87,7 +87,7 @@
   },
   "Vision": {
     "badge": "SDG 4 ya UN: Elimu Bora",
-    "title": "Kuinua Elimu Katika Afrika",
+    "title": "Kuinua Elimu <span>Katika Afrika</span>",
     "story": {
       "heading": "Miezi sita baadaye...",
       "part1": "Idir hahangaiki tena darasani. Anarekodi kila somo, anauliza maswali kwa mshirika wake wa kujifunza wa AI, na hatimaye anaelewa badala ya kuhifadhi tu.",
@@ -96,7 +96,7 @@
     },
     "global": {
       "heading": "Kutoka Morocco hadi Madagascar",
-      "description": "Kila mwanafunzi anastahili kuelewa, sio kuhifadhi tu. Hatujengi programu tu - tunajenga harakati kuelekea elimu bora kwa wote.",
+      "description": "Kila mwanafunzi anastahili kuelewa, sio kuhifadhi tu. Hatujengi programu tu - tunajenga harakati kuelekea <span>elimu bora kwa wote</span>.",
       "badge1": "Kusaidia SDG 4 ya UN",
       "badge2": "Elimu Bora Katika Afrika"
     }
@@ -192,7 +192,7 @@
   },
   "WhyJoin": {
     "badge": "Ufikiaji wa Mapema wa Kipekee",
-    "title": "Kwa Nini Ujiunga na Orodha ya Kusubiri?",
+    "title": "Kwa Nini Ujiunge na Orodha ya Kusubiri?",
     "subtitle": "Kuwa sehemu ya mapinduzi ya elimu na upate faida za kipekee",
     "benefits": {
       "title": "Faida za Kipekee",
@@ -215,6 +215,7 @@
     "cta": {
       "title": "Uko tayari kubadilisha jinsi unavyojifunza?",
       "subtitle": "Jiunge na wanafunzi 1,247 kutoka nchi 23 wanasubiri mustakabali wa elimu",
+      "emailPlaceholder": "Ingiza barua pepe yako",
       "button": "Hifadhi Nafasi Yako",
       "successMessage": "🎉 Umeingia! Karibu kwenye mustakabali wa kujifunza.",
       "disclaimer": "Hakuna spam, jitoe wakati wowote. Nafasi 753 tu zimebaki kwa ufikiaji wa mapema."

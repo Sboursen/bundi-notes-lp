@@ -47,7 +47,7 @@
   },
   "Solution": {
     "badge": "Le futur de l'apprentissage",
-    "title": "Imaginez si vous pouviez avoir une conversation avec vos cours",
+    "title": "Imaginez si vous pouviez avoir une <span>conversation</span> avec vos cours",
     "subtitle": "Nous construisons le partenaire d'étude IA que chaque étudiant mérite. Un partenaire qui transforme la prise de notes passive en apprentissage actif et engageant.",
     "features": {
       "feature1": {
@@ -87,7 +87,7 @@
   },
   "Vision": {
     "badge": "ODD 4 de l'ONU : Éducation de qualité",
-    "title": "Élever le niveau de l'éducation à travers l'Afrique",
+    "title": "Élever le niveau de l'éducation <span>à travers l'Afrique</span>",
     "story": {
       "heading": "Six mois plus tard...",
       "part1": "Idir ne lutte plus en classe. Il enregistre chaque cours, pose des questions à son partenaire d'étude IA, et comprend enfin au lieu de simplement mémoriser.",
@@ -96,7 +96,7 @@
     },
     "global": {
       "heading": "Du Maroc à Madagascar",
-      "description": "Chaque étudiant mérite de comprendre, pas seulement de mémoriser. Nous ne construisons pas seulement une application, nous construisons un mouvement vers une éducation de qualité pour tous.",
+      "description": "Chaque étudiant mérite de comprendre, pas seulement de mémoriser. Nous ne construisons pas seulement une application, nous construisons un mouvement vers <span>une éducation de qualité pour tous</span>.",
       "badge1": "Soutien à l'ODD 4 de l'ONU",
       "badge2": "Éducation de qualité à travers l'Afrique"
     }
@@ -215,6 +215,7 @@
     "cta": {
       "title": "Prêt à transformer votre apprentissage ?",
       "subtitle": "Rejoignez 1 247 étudiants de 23 pays qui attendent le futur de l'éducation",
+      "emailPlaceholder": "Entrez votre email",
       "button": "Réservez votre place",
       "successMessage": "🎉 Vous êtes inscrit ! Bienvenue dans le futur de l'apprentissage.",
       "disclaimer": "Pas de spam, désabonnement à tout moment. Il ne reste que 753 places pour l'accès anticipé."

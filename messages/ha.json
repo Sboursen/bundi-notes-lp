@@ -47,7 +47,7 @@
   },
   "Solution": {
     "badge": "Nan Gaban Koyo",
-    "title": "Ka yi tunanin idan za ka iya yin hira da darussan ka",
+    "title": "Ka yi tunanin idan za ka iya yin <span>hira</span> da darussan ka",
     "subtitle": "Muna gina abokin koyo na AI wanda kowane ɗalibi ya cancanta. Wanda ke canza ɗaukar bayanai marasa aiki zuwa koyo mai aiki da mai jan hankali.",
     "features": {
       "feature1": {
@@ -87,7 +87,7 @@
   },
   "Vision": {
     "badge": "SDG 4 na UN: Ilimi Mai Inganci",
-    "title": "Ɗaga Ilimi a Duk Afirka",
+    "title": "Ɗaga Ilimi <span>a Duk Afirka</span>",
     "story": {
       "heading": "Watanni shida daga baya...",
       "part1": "Idir ba ya ƙara wahala a aji. Yana ɗaukar kowane darasi, yana yi wa abokin koyonsa na AI tambayoyi, kuma yana fahimta a ƙarshe maimakon kawai haddace.",
@@ -96,7 +96,7 @@
     },
     "global": {
       "heading": "Daga Morocco zuwa Madagascar",
-      "description": "Kowane ɗalibi ya cancanci fahimta, ba kawai haddace ba. Ba mu gina kawai app ba - muna gina motsi zuwa ilimi mai inganci ga duka.",
+      "description": "Kowane ɗalibi ya cancanci fahimta, ba kawai haddace ba. Ba mu gina kawai app ba - muna gina motsi zuwa <span>ilimi mai inganci ga duka</span>.",
       "badge1": "Tallafawa SDG 4 na UN",
       "badge2": "Ilimi Mai Inganci a Duk Afirka"
     }
@@ -215,6 +215,7 @@
     "cta": {
       "title": "Kana shirye don canza yadda kake koyo?",
       "subtitle": "Ka shiga ɗalibai 1,247 daga ƙasashe 23 da suke jiran nan gaban ilimi",
+      "emailPlaceholder": "Shigar da imel ɗinka",
       "button": "Ka Ajiye Wurinka",
       "successMessage": "🎉 Ka shiga! Barka da zuwa nan gaban koyo.",
       "disclaimer": "Babu spam, ka fita daga rajista a kowane lokaci. Wurare 753 ne kawai suka rage don damar shiga na farko."

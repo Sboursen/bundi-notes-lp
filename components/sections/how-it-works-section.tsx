@@ -1,18 +1,19 @@
+"use client"
+
+import { useTranslations } from "next-intl"
 import { Card, CardContent } from "@/components/ui/card"
 import { Mic, Brain, MessageSquare } from "lucide-react"
 
 export function HowItWorksSection() {
+  const t = useTranslations("HowItWorks")
+
   return (
     <section id="how-it-works" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-5xl font-bold text-brand-black font-primary mb-6">
-              How Bundi Notes Will Work
-            </h2>
-            <p className="text-xl text-brand-black/70 font-secondary">
-              Three simple steps to transform your learning experience
-            </p>
+            <h2 className="text-3xl lg:text-5xl font-bold text-brand-black font-primary mb-6">{t("title")}</h2>
+            <p className="text-xl text-brand-black/70 font-secondary">{t("subtitle")}</p>
           </div>
 
           <div className="space-y-8">
@@ -26,14 +27,11 @@ export function HowItWorksSection() {
                           <Mic className="w-6 h-6 text-white" />
                         </div>
                         <div>
-                          <span className="text-sm text-brand-gold font-medium">Step 1</span>
-                          <h3 className="text-2xl font-bold text-brand-black font-primary">Record Your Class</h3>
+                          <span className="text-sm text-brand-gold font-medium">{t("steps.step1.label")}</span>
+                          <h3 className="text-2xl font-bold text-brand-black font-primary">{t("steps.step1.title")}</h3>
                         </div>
                       </div>
-                      <p className="text-brand-black/70 font-secondary text-lg">
-                        Simply hit record (with permission) and focus on listening. No more choosing between
-                        understanding and note-taking.
-                      </p>
+                      <p className="text-brand-black/70 font-secondary text-lg">{t("steps.step1.description")}</p>
                     </div>
                   </div>
                   <div className="bg-gradient-to-br from-brand-gold/10 to-brand-silver/10 p-8 flex items-center justify-center">
@@ -56,14 +54,11 @@ export function HowItWorksSection() {
                           <Brain className="w-6 h-6 text-white" />
                         </div>
                         <div>
-                          <span className="text-sm text-brand-gold font-medium">Step 2</span>
-                          <h3 className="text-2xl font-bold text-brand-black font-primary">AI Understands</h3>
+                          <span className="text-sm text-brand-gold font-medium">{t("steps.step2.label")}</span>
+                          <h3 className="text-2xl font-bold text-brand-black font-primary">{t("steps.step2.title")}</h3>
                         </div>
                       </div>
-                      <p className="text-brand-black/70 font-secondary text-lg">
-                        Our AI transcribes and deeply understands the content, creating a searchable, intelligent
-                        knowledge base from your lectures.
-                      </p>
+                      <p className="text-brand-black/70 font-secondary text-lg">{t("steps.step2.description")}</p>
                     </div>
                   </div>
                 </div>
@@ -80,14 +75,11 @@ export function HowItWorksSection() {
                           <MessageSquare className="w-6 h-6 text-white" />
                         </div>
                         <div>
-                          <span className="text-sm text-brand-gold font-medium">Step 3</span>
-                          <h3 className="text-2xl font-bold text-brand-black font-primary">Ask & Learn</h3>
+                          <span className="text-sm text-brand-gold font-medium">{t("steps.step3.label")}</span>
+                          <h3 className="text-2xl font-bold text-brand-black font-primary">{t("steps.step3.title")}</h3>
                         </div>
                       </div>
-                      <p className="text-brand-black/70 font-secondary text-lg">
-                        Ask questions and get answers from your teacher's actual words. It's like having a personal
-                        tutor who never forgets anything.
-                      </p>
+                      <p className="text-brand-black/70 font-secondary text-lg">{t("steps.step3.description")}</p>
                     </div>
                   </div>
                   <div className="bg-gradient-to-br from-brand-gold/10 to-brand-silver/10 p-8 flex items-center justify-center">
