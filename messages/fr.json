@@ -1,0 +1,193 @@
+{
+  "Metadata": {
+    "siteTitle": "Bundi Notes - Transformez votre façon d'apprendre",
+    "siteDescription": "Le partenaire d'étude IA qui transforme votre façon d'apprendre. Enregistrez les cours, posez des questions à vos notes et comprenez enfin - pas seulement mémorisez."
+  },
+  "Navigation": {
+    "howItWorks": "Comment ça marche",
+    "ourMission": "Notre mission",
+    "faq": "FAQ",
+    "joinWaitlist": "Rejoindre la liste d'attente"
+  },
+  "Hero": {
+    "badge": "Lancement au printemps 2026",
+    "title": "Le partenaire d'étude IA qui transforme votre façon d'apprendre",
+    "subtitle": "Enregistrez les cours, posez des questions à vos propres notes et comprenez enfin - pas seulement mémorisez. Rejoignez la révolution de l'éducation.",
+    "stats": {
+      "students": "1 247 étudiants en attente",
+      "countries": "23 pays"
+    },
+    "emailPlaceholder": "Entrez votre email",
+    "ctaButton": "Rejoindre la liste d'attente",
+    "successMessage": "🎉 Bienvenue dans la révolution ! Vérifiez votre email pour confirmation.",
+    "belowCta": "Soyez parmi les 1 000 premiers étudiants à découvrir le futur de l'apprentissage"
+  },
+  "Problem": {
+    "title": "Rencontrez Idir, un étudiant de 16 ans au Maroc",
+    "subtitle": "Comme des millions d'étudiants dans le monde, Idir fait face à un choix impossible chaque jour en classe...",
+    "cards": {
+      "card1": {
+        "title": "Écouter ou écrire ?",
+        "description": "Se concentrer sur l'enseignant et manquer des détails importants, ou griffonner frénétiquement des notes et perdre l'explication ?"
+      },
+      "card2": {
+        "title": "Confusion silencieuse",
+        "description": "Les questions s'accumulent mais il n'y a jamais assez de temps pour les poser. La leçon continue, laissant des lacunes dans la compréhension."
+      },
+      "card3": {
+        "title": "Mémoriser, ne pas comprendre",
+        "description": "Les sessions d'étude deviennent des sessions de bourrage. L'information entre par une oreille et sort par l'autre."
+      }
+    },
+    "conclusion": {
+      "emphasis": "Ça vous parle ?",
+      "highlight": "Vous n'êtes pas seul.",
+      "description": "C'est la réalité quotidienne des étudiants partout, du Maroc à Madagascar, du lycée à l'université."
+    }
+  },
+  "Solution": {
+    "badge": "Le futur de l'apprentissage",
+    "title": "Imaginez si vous pouviez avoir une conversation avec vos cours",
+    "subtitle": "Nous construisons le partenaire d'étude IA que chaque étudiant mérite. Un partenaire qui transforme la prise de notes passive en apprentissage actif et engageant.",
+    "features": {
+      "feature1": {
+        "title": "Ne manquez plus rien",
+        "description": "Ne manquez plus jamais d'explications importantes. Chaque mot est capturé et compris."
+      },
+      "feature2": {
+        "title": "Posez des questions à tout moment",
+        "description": "Posez des questions aux paroles de votre enseignant, à tout moment. Obtenez des réponses du contenu réel du cours."
+      },
+      "feature3": {
+        "title": "Apprentissage actif",
+        "description": "Transformez la prise de notes passive en apprentissage actif qui reste."
+      }
+    }
+  },
+  "HowItWorks": {
+    "title": "Comment Bundi Notes fonctionnera",
+    "subtitle": "Trois étapes simples pour transformer votre expérience d'apprentissage",
+    "steps": {
+      "step1": {
+        "label": "Étape 1",
+        "title": "Enregistrez votre cours",
+        "description": "Appuyez simplement sur enregistrer (avec permission) et concentrez-vous sur l'écoute. Plus besoin de choisir entre comprendre et prendre des notes."
+      },
+      "step2": {
+        "label": "Étape 2",
+        "title": "L'IA comprend",
+        "description": "Notre IA transcrit et comprend profondément le contenu, créant une base de connaissances intelligente et consultable à partir de vos cours."
+      },
+      "step3": {
+        "label": "Étape 3",
+        "title": "Posez des questions et apprenez",
+        "description": "Posez des questions et obtenez des réponses à partir des mots réels de votre enseignant. C'est comme avoir un tuteur personnel qui n'oublie jamais rien."
+      }
+    }
+  },
+  "Vision": {
+    "badge": "ODD 4 de l'ONU : Éducation de qualité",
+    "title": "Élever le niveau de l'éducation à travers l'Afrique",
+    "story": {
+      "heading": "Six mois plus tard...",
+      "part1": "Idir ne lutte plus en classe. Il enregistre chaque cours, pose des questions à son partenaire d'étude IA, et comprend enfin au lieu de simplement mémoriser.",
+      "part2": "Ses notes se sont améliorées, mais plus important encore, sa confiance a grimpé en flèche. Il n'est pas seulement un meilleur étudiant, il est un apprenant plus curieux et engagé.",
+      "highlight": "C'est la transformation que nous construisons pour chaque étudiant, partout."
+    },
+    "global": {
+      "heading": "Du Maroc à Madagascar",
+      "description": "Chaque étudiant mérite de comprendre, pas seulement de mémoriser. Nous ne construisons pas seulement une application, nous construisons un mouvement vers une éducation de qualité pour tous.",
+      "badge1": "Soutien à l'ODD 4 de l'ONU",
+      "badge2": "Éducation de qualité à travers l'Afrique"
+    }
+  },
+  "Founder": {
+    "title": "Pourquoi nous construisons cela",
+    "story": {
+      "part1": "En tant que personne ayant lutté à travers les systèmes éducatifs traditionnels, je connais personnellement la frustration de s'asseoir en classe, voulant comprendre, mais se sentant perdu dans une mer d'informations.",
+      "part2": "L'éducation ne devrait pas être une question de qui peut écrire le plus vite ou mémoriser le plus. Elle devrait être une question de compréhension, de curiosité et d'apprentissage authentique.",
+      "highlight": "Ce n'est pas juste une autre application, c'est une mission pour démocratiser l'éducation de qualité dans le monde entier."
+    },
+    "quote": "Chaque étudiant mérite un tuteur personnel qui ne se fatigue jamais, ne juge jamais et n'oublie jamais. Nous construisons ce tuteur pour le monde.",
+    "role": {
+      "title": "Fondateur",
+      "company": "Bundi Notes"
+    }
+  },
+  "FinalCTA": {
+    "badge": "Offre à durée limitée",
+    "title": "Prêt à transformer votre façon d'apprendre ?",
+    "subtitle": "Rejoignez la révolution de l'éducation. Soyez parmi les premiers à découvrir le futur de l'apprentissage lors de notre lancement au printemps 2026.",
+    "stats": {
+      "spots": "753",
+      "spotsLabel": "Places restantes",
+      "discount": "50%",
+      "discountLabel": "Réduction première année",
+      "students": "1 247",
+      "studentsLabel": "Étudiants en attente"
+    },
+    "emailPlaceholder": "Entrez votre email",
+    "ctaButton": "Rejoindre la révolution",
+    "successMessage": "🎉 Bienvenue dans la révolution ! Vérifiez votre email pour les prochaines étapes.",
+    "footer": {
+      "noSpam": "Pas de spam, jamais",
+      "unsubscribe": "Désabonnez-vous à tout moment",
+      "launch": "Lancement printemps 2026"
+    }
+  },
+  "FAQ": {
+    "title": "Questions fréquemment posées",
+    "subtitle": "Tout ce que vous devez savoir sur l'inscription à la liste d'attente",
+    "questions": {
+      "q1": {
+        "question": "Quand Bundi Notes sera-t-il disponible ?",
+        "answer": "Nous lançons au printemps 2026. Les membres de la liste d'attente auront un accès anticipé avant le lancement public, avec des opportunités de test bêta à partir de l'automne 2025."
+      },
+      "q2": {
+        "question": "Est-ce que ça coûtera de l'argent ?",
+        "answer": "Bundi Notes aura des niveaux gratuits et premium. Les membres de la liste d'attente bénéficient de 50% de réduction sur leur première année et d'un accès aux fonctionnalités premium pendant la période d'accès anticipé."
+      },
+      "q3": {
+        "question": "Sur quels appareils fonctionnera-t-il ?",
+        "answer": "Bundi Notes sera disponible sur le web, iOS et Android. Nous le concevons pour qu'il fonctionne parfaitement sur tous vos appareils, afin que vous puissiez enregistrer sur votre téléphone et étudier sur votre ordinateur portable."
+      },
+      "q4": {
+        "question": "Comment puis-je savoir que c'est réel ?",
+        "answer": "Nous nous engageons à la transparence. Les membres de la liste d'attente reçoivent des mises à jour régulières sur le développement, du contenu en coulisses et des aperçus précoces du produit pendant que nous le construisons."
+      },
+      "q5": {
+        "question": "Et si je change d'avis ?",
+        "answer": "Pas de problème ! Vous pouvez vous désabonner de la liste d'attente à tout moment. Nous respectons votre boîte de réception et ne vous enverrons jamais de spam."
+      },
+      "q6": {
+        "question": "Fonctionnera-t-il dans ma langue ?",
+        "answer": "Nous commençons avec l'arabe, l'anglais, le français, le swahili et le haoussa, avec des plans pour ajouter plus de langues africaines en fonction de la demande de la communauté. Faites-nous savoir quelle langue vous avez besoin !"
+      }
+    }
+  },
+  "Footer": {
+    "description": "Transformer l'éducation grâce à des compagnons d'apprentissage alimentés par l'IA.",
+    "mission": {
+      "title": "Mission",
+      "text": "Soutien à l'ODD 4 de l'ONU : Éducation de qualité"
+    },
+    "contact": {
+      "title": "Contact",
+      "text": "Des questions ? Nous aimerions avoir de vos nouvelles."
+    },
+    "copyright": {
+      "madeWith": "Fait avec",
+      "forStudents": "pour les étudiants à travers l'Afrique",
+      "rights": "© 2024 Bundi Notes. Tous droits réservés."
+    }
+  },
+  "LanguageSwitcher": {
+    "languages": {
+      "en": "English",
+      "fr": "Français",
+      "ar": "العربية",
+      "sw": "Kiswahili",
+      "ha": "Hausa"
+    }
+  }
+}

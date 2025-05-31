@@ -1,0 +1,193 @@
+{
+  "Metadata": {
+    "siteTitle": "Bundi Notes - Badilisha Jinsi Unavyojifunza",
+    "siteDescription": "Mshirika wa kujifunza wa AI anayebadilisha jinsi unavyojifunza. Rekodi masomo, uliza maswali kwa maelezo yako, na hatimaye elewa - sio kuhifadhi tu."
+  },
+  "Navigation": {
+    "howItWorks": "Jinsi Inavyofanya Kazi",
+    "ourMission": "Dhamira Yetu",
+    "faq": "Maswali Yanayoulizwa Mara kwa Mara",
+    "joinWaitlist": "Jiunge na Orodha ya Kusubiri"
+  },
+  "Hero": {
+    "badge": "Inazinduliwa Majira ya Kuchipua 2026",
+    "title": "Mshirika wa Kujifunza wa AI Anayebadilisha Jinsi Unavyojifunza",
+    "subtitle": "Rekodi masomo, uliza maswali kwa maelezo yako, na hatimaye elewa - sio kuhifadhi tu. Jiunge na mapinduzi ya elimu.",
+    "stats": {
+      "students": "Wanafunzi 1,247 wanasubiri",
+      "countries": "Nchi 23"
+    },
+    "emailPlaceholder": "Ingiza barua pepe yako",
+    "ctaButton": "Jiunge na Orodha ya Kusubiri",
+    "successMessage": "🎉 Karibu kwenye mapinduzi! Angalia barua pepe yako kwa uthibitisho.",
+    "belowCta": "Kuwa miongoni mwa wanafunzi 1,000 wa kwanza kupata uzoefu wa siku zijazo za kujifunza"
+  },
+  "Problem": {
+    "title": "Mkutane na Idir, mwanafunzi wa miaka 16 nchini Morocco",
+    "subtitle": "Kama mamilioni ya wanafunzi duniani kote, Idir anakabiliwa na chaguo lisilowezekana kila siku darasani...",
+    "cards": {
+      "card1": {
+        "title": "Sikiliza au Andika?",
+        "description": "Zingatia mwalimu na kukosa maelezo muhimu, au andika maelezo kwa haraka na kupoteza ufafanuzi?"
+      },
+      "card2": {
+        "title": "Kuchanganyikiwa Kimya",
+        "description": "Maswali yanajilimbikiza lakini hakuna muda wa kutosha kuuliza. Somo linaendelea, likiwacha mapengo katika uelewa."
+      },
+      "card3": {
+        "title": "Hifadhi, Usielewi",
+        "description": "Vipindi vya kusoma vinakuwa vipindi vya kujaza. Taarifa inaingia kwa sikio moja na kutoka kwa lingine."
+      }
+    },
+    "conclusion": {
+      "emphasis": "Inasikika kama kawaida?",
+      "highlight": "Wewe si peke yako.",
+      "description": "Hii ni hali ya kila siku kwa wanafunzi kila mahali, kutoka Morocco hadi Madagascar, kutoka shule ya sekondari hadi chuo kikuu."
+    }
+  },
+  "Solution": {
+    "badge": "Siku Zijazo za Kujifunza",
+    "title": "Fikiria kama ungeweza kuwa na mazungumzo na masomo yako",
+    "subtitle": "Tunajenga mshirika wa kujifunza wa AI ambaye kila mwanafunzi anastahili. Mmoja anayebadilisha kuchukua maelezo ya kimya kuwa kujifunza kwa ushiriki.",
+    "features": {
+      "feature1": {
+        "title": "Usikose Tena",
+        "description": "Usikose maelezo muhimu tena. Kila neno linapatikana na kueleweka."
+      },
+      "feature2": {
+        "title": "Uliza Wakati Wowote",
+        "description": "Uliza maneno ya mwalimu wako swali lolote, wakati wowote. Pata majibu kutoka kwa maudhui halisi ya somo."
+      },
+      "feature3": {
+        "title": "Kujifunza kwa Ushiriki",
+        "description": "Badilisha kuchukua maelezo ya kimya kuwa kujifunza kwa ushiriki kunakobaki."
+      }
+    }
+  },
+  "HowItWorks": {
+    "title": "Jinsi Bundi Notes Itakavyofanya Kazi",
+    "subtitle": "Hatua tatu rahisi za kubadilisha uzoefu wako wa kujifunza",
+    "steps": {
+      "step1": {
+        "label": "Hatua ya 1",
+        "title": "Rekodi Darasa Lako",
+        "description": "Bonyeza tu kurekodi (kwa ruhusa) na uzingatie kusikiliza. Hakuna tena kuchagua kati ya kuelewa na kuchukua maelezo."
+      },
+      "step2": {
+        "label": "Hatua ya 2",
+        "title": "AI Inaelewa",
+        "description": "AI yetu inanakili na kuelewa kwa kina maudhui, ikiunda msingi wa maarifa unaotafutika na wenye akili kutoka kwa masomo yako."
+      },
+      "step3": {
+        "label": "Hatua ya 3",
+        "title": "Uliza na Jifunze",
+        "description": "Uliza maswali na upate majibu kutoka kwa maneno halisi ya mwalimu wako. Ni kama kuwa na mwalimu binafsi ambaye hasahau chochote."
+      }
+    }
+  },
+  "Vision": {
+    "badge": "SDG 4 ya UN: Elimu Bora",
+    "title": "Kuinua Elimu Katika Afrika",
+    "story": {
+      "heading": "Miezi sita baadaye...",
+      "part1": "Idir hahangaiki tena darasani. Anarekodi kila somo, anauliza maswali kwa mshirika wake wa kujifunza wa AI, na hatimaye anaelewa badala ya kuhifadhi tu.",
+      "part2": "Alama zake ziliimarika, lakini muhimu zaidi, imani yake ilipanda. Yeye sio tu mwanafunzi bora - yeye ni mwanafunzi mwenye udadisi zaidi na anayeshiriki.",
+      "highlight": "Hii ni mabadiliko tunayojenga kwa kila mwanafunzi, kila mahali."
+    },
+    "global": {
+      "heading": "Kutoka Morocco hadi Madagascar",
+      "description": "Kila mwanafunzi anastahili kuelewa, sio kuhifadhi tu. Hatujengi programu tu - tunajenga harakati kuelekea elimu bora kwa wote.",
+      "badge1": "Kusaidia SDG 4 ya UN",
+      "badge2": "Elimu Bora Katika Afrika"
+    }
+  },
+  "Founder": {
+    "title": "Kwa Nini Tunajenga Hii",
+    "story": {
+      "part1": "Kama mtu aliyehangaika kupitia mifumo ya elimu ya jadi, najua moja kwa moja mshangao wa kukaa darasani, nikitaka kuelewa, lakini nikihisi kupotea katika bahari ya habari.",
+      "part2": "Elimu haipaswi kuhusu nani anaweza kuandika haraka zaidi au kuhifadhi zaidi. Inapaswa kuhusu kuelewa, udadisi, na kujifunza kwa kweli.",
+      "highlight": "Hii sio programu nyingine tu - ni dhamira ya kudemokratisha elimu bora duniani kote."
+    },
+    "quote": "Kila mwanafunzi anastahili mwalimu binafsi ambaye hachoki kamwe, hahukumu kamwe, na hasahau kamwe. Tunajenga huyo mwalimu kwa ulimwengu.",
+    "role": {
+      "title": "Mwanzilishi",
+      "company": "Bundi Notes"
+    }
+  },
+  "FinalCTA": {
+    "badge": "Ofa ya Muda Mdogo",
+    "title": "Uko Tayari Kubadilisha Jinsi Unavyojifunza?",
+    "subtitle": "Jiunge na mapinduzi ya elimu. Kuwa miongoni mwa wa kwanza kupata uzoefu wa siku zijazo za kujifunza tunapozindua katika majira ya kuchipua 2026.",
+    "stats": {
+      "spots": "753",
+      "spotsLabel": "Nafasi Zilizobaki",
+      "discount": "50%",
+      "discountLabel": "Punguzo la Mwaka wa Kwanza",
+      "students": "1,247",
+      "studentsLabel": "Wanafunzi Wanasubiri"
+    },
+    "emailPlaceholder": "Ingiza barua pepe yako",
+    "ctaButton": "Jiunge na Mapinduzi",
+    "successMessage": "🎉 Karibu kwenye mapinduzi! Angalia barua pepe yako kwa hatua zinazofuata.",
+    "footer": {
+      "noSpam": "Hakuna spam, kamwe",
+      "unsubscribe": "Jitoe wakati wowote",
+      "launch": "Uzinduzi Majira ya Kuchipua 2026"
+    }
+  },
+  "FAQ": {
+    "title": "Maswali Yanayoulizwa Mara kwa Mara",
+    "subtitle": "Kila kitu unachohitaji kujua kuhusu kujiunga na orodha ya kusubiri",
+    "questions": {
+      "q1": {
+        "question": "Bundi Notes itapatikana lini?",
+        "answer": "Tunazindua katika majira ya kuchipua 2026. Wanachama wa orodha ya kusubiri watapata ufikiaji wa mapema kabla ya uzinduzi wa umma, na fursa za majaribio zitaanza majira ya kupukutika 2025."
+      },
+      "q2": {
+        "question": "Itagharimu pesa?",
+        "answer": "Bundi Notes itakuwa na viwango vya bure na vya malipo. Wanachama wa orodha ya kusubiri wanapata punguzo la 50% kwa mwaka wao wa kwanza na ufikiaji wa vipengele vya malipo wakati wa kipindi cha ufikiaji wa mapema."
+      },
+      "q3": {
+        "question": "Itafanya kazi kwenye vifaa gani?",
+        "answer": "Bundi Notes itapatikana kwenye wavuti, iOS, na Android. Tunaibuni ifanye kazi vizuri kwenye vifaa vyako vyote, ili uweze kurekodi kwenye simu yako na kusoma kwenye kompyuta yako ya mkononi."
+      },
+      "q4": {
+        "question": "Ninajuaje kuwa hii ni halisi?",
+        "answer": "Tumejitolea kwa uwazi. Wanachama wa orodha ya kusubiri wanapokea mara kwa mara sasisho za maendeleo, maudhui ya nyuma ya pazia, na maonyesho ya mapema ya bidhaa tunapoijenga."
+      },
+      "q5": {
+        "question": "Vipi kama nikibadilisha mawazo yangu?",
+        "answer": "Hakuna tatizo kabisa! Unaweza kujitoa kwenye orodha ya kusubiri wakati wowote. Tunaheshimu barua pepe yako na hatutakutumia spam kamwe."
+      },
+      "q6": {
+        "question": "Itafanya kazi kwa lugha yangu?",
+        "answer": "Tunaanza na Kiarabu, Kiingereza, Kifaransa, Kiswahili, na Kihausa, na mipango ya kuongeza lugha zaidi za Kiafrika kulingana na mahitaji ya jamii. Tuambie lugha gani unahitaji!"
+      }
+    }
+  },
+  "Footer": {
+    "description": "Kubadilisha elimu kupitia washirika wa kujifunza wanaotumia AI.",
+    "mission": {
+      "title": "Dhamira",
+      "text": "Kusaidia SDG 4 ya UN: Elimu Bora"
+    },
+    "contact": {
+      "title": "Wasiliana",
+      "text": "Maswali? Tungependa kusikia kutoka kwako."
+    },
+    "copyright": {
+      "madeWith": "Imetengenezwa kwa",
+      "forStudents": "kwa wanafunzi katika Afrika",
+      "rights": "© 2024 Bundi Notes. Haki zote zimehifadhiwa."
+    }
+  },
+  "LanguageSwitcher": {
+    "languages": {
+      "en": "English",
+      "fr": "Français",
+      "ar": "العربية",
+      "sw": "Kiswahili",
+      "ha": "Hausa"
+    }
+  }
+}

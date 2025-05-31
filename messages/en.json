@@ -1,0 +1,193 @@
+{
+  "Metadata": {
+    "siteTitle": "Bundi Notes - Transform How You Learn",
+    "siteDescription": "The AI study partner that transforms how you learn. Record lectures, ask questions to your notes, and finally understand—not just memorize."
+  },
+  "Navigation": {
+    "howItWorks": "How It Works",
+    "ourMission": "Our Mission",
+    "faq": "FAQ",
+    "joinWaitlist": "Join Waitlist"
+  },
+  "Hero": {
+    "badge": "Launching Spring 2026",
+    "title": "The AI Study Partner That Transforms How You Learn",
+    "subtitle": "Record lectures, ask questions to your own notes, and finally understand—not just memorize. Join the revolution in education.",
+    "stats": {
+      "students": "1,247 students waiting",
+      "countries": "23 countries"
+    },
+    "emailPlaceholder": "Enter your email",
+    "ctaButton": "Join Waitlist",
+    "successMessage": "🎉 Welcome to the revolution! Check your email for confirmation.",
+    "belowCta": "Be among the first 1,000 students to experience the future of learning"
+  },
+  "Problem": {
+    "title": "Meet Idir, a 16-year-old student in Morocco",
+    "subtitle": "Like millions of students worldwide, Idir faces an impossible choice every day in class...",
+    "cards": {
+      "card1": {
+        "title": "Listen or Write?",
+        "description": "Focus on the teacher and miss important details, or frantically scribble notes and lose the explanation?"
+      },
+      "card2": {
+        "title": "Silent Confusion",
+        "description": "Questions pile up but there's never enough time to ask. The lesson moves on, leaving gaps in understanding."
+      },
+      "card3": {
+        "title": "Memorize, Don't Understand",
+        "description": "Study sessions become cramming sessions. Information goes in one ear and out the other."
+      }
+    },
+    "conclusion": {
+      "emphasis": "Sound familiar?",
+      "highlight": "You're not alone.",
+      "description": "This is the daily reality for students everywhere, from Morocco to Madagascar, from high school to university."
+    }
+  },
+  "Solution": {
+    "badge": "The Future of Learning",
+    "title": "Imagine if you could have a conversation with your lectures",
+    "subtitle": "We're building the AI study partner every student deserves. One that transforms passive note-taking into active, engaging learning.",
+    "features": {
+      "feature1": {
+        "title": "Never Miss Again",
+        "description": "Never miss important explanations again. Every word is captured and understood."
+      },
+      "feature2": {
+        "title": "Ask Anytime",
+        "description": "Ask your teacher's words any question, anytime. Get answers from the actual lecture content."
+      },
+      "feature3": {
+        "title": "Active Learning",
+        "description": "Transform passive note-taking into active learning that sticks."
+      }
+    }
+  },
+  "HowItWorks": {
+    "title": "How Bundi Notes Will Work",
+    "subtitle": "Three simple steps to transform your learning experience",
+    "steps": {
+      "step1": {
+        "label": "Step 1",
+        "title": "Record Your Class",
+        "description": "Simply hit record (with permission) and focus on listening. No more choosing between understanding and note-taking."
+      },
+      "step2": {
+        "label": "Step 2",
+        "title": "AI Understands",
+        "description": "Our AI transcribes and deeply understands the content, creating a searchable, intelligent knowledge base from your lectures."
+      },
+      "step3": {
+        "label": "Step 3",
+        "title": "Ask & Learn",
+        "description": "Ask questions and get answers from your teacher's actual words. It's like having a personal tutor who never forgets anything."
+      }
+    }
+  },
+  "Vision": {
+    "badge": "UN SDG 4: Quality Education",
+    "title": "Leveling Up Education Across Africa",
+    "story": {
+      "heading": "Six months later...",
+      "part1": "Idir no longer struggles in class. He records every lecture, asks questions to his AI study partner, and finally understands instead of just memorizing.",
+      "part2": "His grades improved, but more importantly, his confidence soared. He's not just a better student—he's a more curious, engaged learner.",
+      "highlight": "This is the transformation we're building for every student, everywhere."
+    },
+    "global": {
+      "heading": "From Morocco to Madagascar",
+      "description": "Every student deserves to understand, not just memorize. We're not just building an app—we're building a movement toward quality education for all.",
+      "badge1": "Supporting UN SDG 4",
+      "badge2": "Quality Education Across Africa"
+    }
+  },
+  "Founder": {
+    "title": "Why We're Building This",
+    "story": {
+      "part1": "As someone who struggled through traditional education systems, I know firsthand the frustration of sitting in class, wanting to understand, but feeling lost in a sea of information.",
+      "part2": "Education shouldn't be about who can write the fastest or memorize the most. It should be about understanding, curiosity, and genuine learning.",
+      "highlight": "This isn't just another app—it's a mission to democratize quality education worldwide."
+    },
+    "quote": "Every student deserves a personal tutor who never gets tired, never judges, and never forgets. We're building that tutor for the world.",
+    "role": {
+      "title": "Founder",
+      "company": "Bundi Notes"
+    }
+  },
+  "FinalCTA": {
+    "badge": "Limited Time Offer",
+    "title": "Ready to Transform How You Learn?",
+    "subtitle": "Join the education revolution. Be among the first to experience the future of learning when we launch in Spring 2026.",
+    "stats": {
+      "spots": "753",
+      "spotsLabel": "Spots Left",
+      "discount": "50%",
+      "discountLabel": "First Year Discount",
+      "students": "1,247",
+      "studentsLabel": "Students Waiting"
+    },
+    "emailPlaceholder": "Enter your email",
+    "ctaButton": "Join Revolution",
+    "successMessage": "🎉 Welcome to the revolution! Check your email for next steps.",
+    "footer": {
+      "noSpam": "No spam, ever",
+      "unsubscribe": "Unsubscribe anytime",
+      "launch": "Launch Spring 2026"
+    }
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about joining the waitlist",
+    "questions": {
+      "q1": {
+        "question": "When will Bundi Notes be available?",
+        "answer": "We're launching in Spring 2026. Waitlist members will get early access before the public launch, with beta testing opportunities starting in Fall 2025."
+      },
+      "q2": {
+        "question": "Will it cost money?",
+        "answer": "Bundi Notes will have both free and premium tiers. Waitlist members get 50% off their first year and access to premium features during the early access period."
+      },
+      "q3": {
+        "question": "What devices will it work on?",
+        "answer": "Bundi Notes will be available on web, iOS, and Android. We're designing it to work seamlessly across all your devices, so you can record on your phone and study on your laptop."
+      },
+      "q4": {
+        "question": "How do I know this is real?",
+        "answer": "We're committed to transparency. Waitlist members receive regular development updates, behind-the-scenes content, and early previews of the product as we build it."
+      },
+      "q5": {
+        "question": "What if I change my mind?",
+        "answer": "No problem at all! You can unsubscribe from the waitlist at any time. We respect your inbox and will never spam you."
+      },
+      "q6": {
+        "question": "Will it work in my language?",
+        "answer": "We're starting with Arabic, English, French, Swahili, and Hausa, with plans to add more African languages based on community demand. Let us know what language you need!"
+      }
+    }
+  },
+  "Footer": {
+    "description": "Transforming education through AI-powered learning companions.",
+    "mission": {
+      "title": "Mission",
+      "text": "Supporting UN SDG 4: Quality Education"
+    },
+    "contact": {
+      "title": "Contact",
+      "text": "Questions? We'd love to hear from you."
+    },
+    "copyright": {
+      "madeWith": "Made with",
+      "forStudents": "for students across Africa",
+      "rights": "© 2024 Bundi Notes. All rights reserved."
+    }
+  },
+  "LanguageSwitcher": {
+    "languages": {
+      "en": "English",
+      "fr": "Français",
+      "ar": "العربية",
+      "sw": "Kiswahili",
+      "ha": "Hausa"
+    }
+  }
+}

@@ -20,6 +20,16 @@ const config: Config = {
     },
     extend: {
       colors: {
+        // Brand Colors
+        brand: {
+          black: "#131313",
+          silver: "#BDC3C7",
+          gold: "#F39C12",
+          light: "#F8F9FA",
+          white: "#FFFFFF",
+          "light-text": "#EAEAEA",
+        },
+        // shadcn/ui colors
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -55,6 +65,10 @@ const config: Config = {
         },
       },
       fontFamily: {
+        // Primary fonts
+        primary: ["var(--font-montserrat)", "sans-serif"],
+        secondary: ["var(--font-lato)", "sans-serif"],
+        // Alias for convenience
         montserrat: ["var(--font-montserrat)", "sans-serif"],
         lato: ["var(--font-lato)", "sans-serif"],
         sans: ["var(--font-lato)", "system-ui", "sans-serif"],

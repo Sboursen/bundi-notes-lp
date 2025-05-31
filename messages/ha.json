@@ -1,0 +1,193 @@
+{
+  "Metadata": {
+    "siteTitle": "Bundi Notes - Canza Yadda Kake Koyo",
+    "siteDescription": "Abokin koyo na AI wanda ke canza yadda kake koyo. Ka ɗauki darussa, ka yi tambayoyi ga bayanankan ka, kuma ka fahimta - ba kawai ka haddace ba."
+  },
+  "Navigation": {
+    "howItWorks": "Yadda Yake Aiki",
+    "ourMission": "Manufarmu",
+    "faq": "Tambayoyi da Ake Yawan Yi",
+    "joinWaitlist": "Shiga Jerin Jira"
+  },
+  "Hero": {
+    "badge": "Ana Kaddamarwa a Bazara 2026",
+    "title": "Abokin Koyo na AI Wanda Ke Canza Yadda Kake Koyo",
+    "subtitle": "Ka ɗauki darussa, ka yi tambayoyi ga bayanankan ka, kuma ka fahimta - ba kawai ka haddace ba. Ka shiga juyin ilimi.",
+    "stats": {
+      "students": "Ɗalibai 1,247 suna jira",
+      "countries": "Ƙasashe 23"
+    },
+    "emailPlaceholder": "Shigar da imel ɗinka",
+    "ctaButton": "Shiga Jerin Jira",
+    "successMessage": "🎉 Barka da zuwa juyin ilimi! Ka duba imel ɗinka don tabbatarwa.",
+    "belowCta": "Ka kasance cikin ɗalibai 1,000 na farko da za su sami damar samun koyon nan gaba"
+  },
+  "Problem": {
+    "title": "Ku hadu da Idir, ɗalibi mai shekara 16 a Morocco",
+    "subtitle": "Kamar miliyoyin ɗalibai a duniya, Idir yana fuskantar zaɓi mai wahala kowace rana a aji...",
+    "cards": {
+      "card1": {
+        "title": "Saurara ko Rubuta?",
+        "description": "Ka mai da hankali ga malami kuma ka rasa muhimman bayanai, ko ka rubuta bayanai cikin gaggawa kuma ka rasa bayani?"
+      },
+      "card2": {
+        "title": "Ruɗani a Shiru",
+        "description": "Tambayoyi suna tara amma babu isasshen lokaci na tambaya. Darasin yana ci gaba, yana barin gibi a fahimta."
+      },
+      "card3": {
+        "title": "Haddace, Ba Fahimta Ba",
+        "description": "Lokutan koyo suna zama lokutan cika. Bayani yana shiga kunne ɗaya ya fita ta ɗaya."
+      }
+    },
+    "conclusion": {
+      "emphasis": "Yana da ƙamshi?",
+      "highlight": "Ba kai kaɗai ba ne.",
+      "description": "Wannan ita ce gaskiyar yau da kullum ga ɗalibai ko'ina, daga Morocco zuwa Madagascar, daga makarantar sakandare zuwa jami'a."
+    }
+  },
+  "Solution": {
+    "badge": "Nan Gaban Koyo",
+    "title": "Ka yi tunanin idan za ka iya yin hira da darussan ka",
+    "subtitle": "Muna gina abokin koyo na AI wanda kowane ɗalibi ya cancanta. Wanda ke canza ɗaukar bayanai marasa aiki zuwa koyo mai aiki da mai jan hankali.",
+    "features": {
+      "feature1": {
+        "title": "Kada Ka Rasa Kuma",
+        "description": "Kada ka rasa muhimman bayani kuma. Ana kama kuma ana fahimtar kowane kalma."
+      },
+      "feature2": {
+        "title": "Tambaya a Kowane Lokaci",
+        "description": "Ka yi tambayoyi ga kalmomin malamin ka, a kowane lokaci. Ka sami amsa daga ainihin abun da aka koyar."
+      },
+      "feature3": {
+        "title": "Koyo Mai Aiki",
+        "description": "Ka canza ɗaukar bayanai marasa aiki zuwa koyo mai aiki wanda ke dawwama."
+      }
+    }
+  },
+  "HowItWorks": {
+    "title": "Yadda Bundi Notes Zai Yi Aiki",
+    "subtitle": "Matakan uku masu sauƙi don canza ƙwarewar koyon ka",
+    "steps": {
+      "step1": {
+        "label": "Matakin 1",
+        "title": "Ka Ɗauki Ajin Ka",
+        "description": "Ka danna ɗaukar kawai (da izini) kuma ka mai da hankali ga sauraro. Babu ƙarin zaɓi tsakanin fahimta da ɗaukar bayanai."
+      },
+      "step2": {
+        "label": "Matakin 2",
+        "title": "AI Yana Fahimta",
+        "description": "AI ɗinmu yana rubuta kuma yana fahimtar abun da ke ciki a zurfi, yana ƙirƙirar tushen ilimi mai hankali kuma mai iya bincika daga darussan ka."
+      },
+      "step3": {
+        "label": "Matakin 3",
+        "title": "Tambaya & Koyo",
+        "description": "Ka yi tambayoyi kuma ka sami amsoshi daga ainihin kalmomin malamin ka. Yana kamar da malami na musamman wanda ba ya taɓa mantawa."
+      }
+    }
+  },
+  "Vision": {
+    "badge": "SDG 4 na UN: Ilimi Mai Inganci",
+    "title": "Ɗaga Ilimi a Duk Afirka",
+    "story": {
+      "heading": "Watanni shida daga baya...",
+      "part1": "Idir ba ya ƙara wahala a aji. Yana ɗaukar kowane darasi, yana yi wa abokin koyonsa na AI tambayoyi, kuma yana fahimta a ƙarshe maimakon kawai haddace.",
+      "part2": "Alamominsa sun inganta, amma mafi muhimmanci, amincewarsa ta ɗaukaka. Ba kawai ɗalibi mafi kyau ba ne - yana da ƙarin sha'awar koyo kuma mai shiga aji.",
+      "highlight": "Wannan shine canjin da muke gina wa kowane ɗalibi, ko'ina."
+    },
+    "global": {
+      "heading": "Daga Morocco zuwa Madagascar",
+      "description": "Kowane ɗalibi ya cancanci fahimta, ba kawai haddace ba. Ba mu gina kawai app ba - muna gina motsi zuwa ilimi mai inganci ga duka.",
+      "badge1": "Tallafawa SDG 4 na UN",
+      "badge2": "Ilimi Mai Inganci a Duk Afirka"
+    }
+  },
+  "Founder": {
+    "title": "Me Ya Sa Muke Gina Wannan",
+    "story": {
+      "part1": "A matsayin wanda ya sha wahala ta hanyar tsarin ilimi na gargajiya, na san wahalar zama a aji, ina son fahimta, amma ina jin ina ɓacewa a cikin teku na bayanai.",
+      "part2": "Ilimi bai kamata ya kasance game da wanda zai iya rubuta da sauri ko haddace mafi yawa ba. Ya kamata ya kasance game da fahimta, sha'awa, da koyo na gaske.",
+      "highlight": "Wannan ba kawai wata app ɗaya ba ce - ita ce manufa don yaɗa ilimi mai inganci a duniya."
+    },
+    "quote": "Kowane ɗalibi ya cancanci malami na musamman wanda ba ya taɓa gajiya, ba ya taɓa hukunta, kuma ba ya taɓa mantawa. Muna gina wannan malami don duniya.",
+    "role": {
+      "title": "Mai Kafawa",
+      "company": "Bundi Notes"
+    }
+  },
+  "FinalCTA": {
+    "badge": "Tayi na Lokaci Gajere",
+    "title": "Kana Shirye Don Canza Yadda Kake Koyo?",
+    "subtitle": "Ka shiga juyin ilimi. Ka kasance cikin na farko da za su sami damar samun koyon nan gaba lokacin da muka kaddamar a bazara 2026.",
+    "stats": {
+      "spots": "753",
+      "spotsLabel": "Wuraren da Suka Rage",
+      "discount": "50%",
+      "discountLabel": "Rangwame na Shekara ta Farko",
+      "students": "1,247",
+      "studentsLabel": "Ɗalibai Suna Jira"
+    },
+    "emailPlaceholder": "Shigar da imel ɗinka",
+    "ctaButton": "Shiga Juyin Ilimi",
+    "successMessage": "🎉 Barka da zuwa juyin ilimi! Ka duba imel ɗinka don matakan da za su biyo baya.",
+    "footer": {
+      "noSpam": "Babu spam, ko da yaushe",
+      "unsubscribe": "Ka fita daga rajista a kowane lokaci",
+      "launch": "Kaddamarwa Bazara 2026"
+    }
+  },
+  "FAQ": {
+    "title": "Tambayoyi da Ake Yawan Yi",
+    "subtitle": "Duk abin da kake buƙatar sani game da shiga jerin jira",
+    "questions": {
+      "q1": {
+        "question": "Yaushe Bundi Notes zai kasance?",
+        "answer": "Muna kaddamarwa a bazara 2026. Membobin jerin jira za su sami damar shiga kafin kaddamarwa ga jama'a, tare da damar gwaji da za ta fara a kaka 2025."
+      },
+      "q2": {
+        "question": "Zai kasance da kuɗi?",
+        "answer": "Bundi Notes zai kasance da matakai na kyauta da na biyan kuɗi. Membobin jerin jira suna samun rangwame na 50% a shekararsu ta farko da damar samun abubuwan da ke cikin mataki na biyan kuɗi a lokacin da suke samun damar shiga na farko."
+      },
+      "q3": {
+        "question": "A kan wane na'urori zai yi aiki?",
+        "answer": "Bundi Notes zai kasance a kan yanar gizo, iOS, da Android. Muna ƙirƙirarsa don ya yi aiki a duk na'urorin ka, don ka iya ɗaukar a wayar ka kuma ka yi koyo a kwamfutar ka."
+      },
+      "q4": {
+        "question": "Ta yaya zan san wannan gaskiya ne?",
+        "answer": "Mun yi alkawarin bayyana. Membobin jerin jira suna samun sabuntawa na ci gaba, abubuwan da ke faruwa a baya, da ganin abin da muke gina kafin kowa."
+      },
+      "q5": {
+        "question": "Me zai faru idan na canja ra'ayi na?",
+        "answer": "Babu matsala sam! Za ka iya fita daga jerin jira a kowane lokaci. Muna girmama imel ɗinka kuma ba za mu taɓa aika maka spam ba."
+      },
+      "q6": {
+        "question": "Zai yi aiki da yaren da nake magana?",
+        "answer": "Muna farawa da Larabci, Turanci, Faransanci, Hausa, da Suwahili, tare da shirin ƙara ƙarin harsunan Afirka bisa buƙatar al'umma. Ka sanar da mu wanne harshe kake buƙata!"
+      }
+    }
+  },
+  "Footer": {
+    "description": "Canza ilimi ta hanyar abokan koyo masu ƙarfin AI.",
+    "mission": {
+      "title": "Manufa",
+      "text": "Tallafawa SDG 4 na UN: Ilimi Mai Inganci"
+    },
+    "contact": {
+      "title": "Tuntuɓi",
+      "text": "Tambayoyi? Muna son jin daga gare ka."
+    },
+    "copyright": {
+      "madeWith": "An yi da",
+      "forStudents": "don ɗalibai a duk Afirka",
+      "rights": "© 2024 Bundi Notes. Duk haƙƙoƙi a kiyaye."
+    }
+  },
+  "LanguageSwitcher": {
+    "languages": {
+      "en": "English",
+      "fr": "Français",
+      "ar": "العربية",
+      "sw": "Kiswahili",
+      "ha": "Hausa"
+    }
+  }
+}
