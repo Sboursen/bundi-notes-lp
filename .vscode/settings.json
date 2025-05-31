@@ -1,5 +1,0 @@
-{
-  "debug.javascript.defaultRuntimeExecutable": {
-    "pwa-node": "/home/enai/.local/share/mise/shims/node"
-  }
-}
