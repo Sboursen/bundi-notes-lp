@@ -1,8 +1,9 @@
 import type React from "react"
 import { Montserrat, Lato } from "next/font/google"
 import { NextIntlClientProvider } from "next-intl"
+import { getMessages } from "next-intl/server"
 import { notFound } from "next/navigation"
-import { getTranslations } from "next-intl/server"
+import { routing } from "@/lib/navigation"
 import "../globals.css"
 
 const montserrat = Montserrat({
@@ -20,14 +21,25 @@ const lato = Lato({
   display: "swap",
 })
 
-// Define supported locales for generating static params
 export function generateStaticParams() {
-  return [{ locale: "en" }, { locale: "fr" }, { locale: "ar" }, { locale: "sw" }, { locale: "ha" }]
+  return routing.locales.map((locale) => ({ locale }))
 }
 
-// Function to generate metadata, including hreflang
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
-  const t = await getTranslations({ locale, namespace: "Metadata" })
+  // Validate locale
+  if (!routing.locales.includes(locale as any)) {
+    notFound()
+  }
+
+  const messages = await getMessages()
+  const t = (key: string) => {
+    const keys = key.split(".")
+    let value: any = messages
+    for (const k of keys) {
+      value = value?.[k]
+    }
+    return value || key
+  }
 
   // Define the base URL of your site
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000"
@@ -41,13 +53,13 @@ export async function generateMetadata({ params: { locale } }: { params: { local
       ar: `${baseUrl}/ar`,
       sw: `${baseUrl}/sw`,
       ha: `${baseUrl}/ha`,
-      "x-default": `${baseUrl}/en`, // Your default language version
+      "x-default": `${baseUrl}/en`,
     },
   }
 
   return {
-    title: t("siteTitle"),
-    description: t("siteDescription"),
+    title: t("Metadata.siteTitle"),
+    description: t("Metadata.siteDescription"),
     alternates,
   }
 }
@@ -59,24 +71,19 @@ export default async function LocaleLayout({
   children: React.ReactNode
   params: { locale: string }
 }) {
-  let messages
-  try {
-    messages = (await import(`../../messages/${locale}.json`)).default
-  } catch (error) {
+  // Ensure that the incoming `locale` is valid
+  if (!routing.locales.includes(locale as any)) {
     notFound()
   }
 
-  // Basic validation
-  if (!generateStaticParams().find((p) => p.locale === locale)) {
-    notFound()
-  }
+  // Providing all messages to the client
+  // side is the easiest way to get started
+  const messages = await getMessages()
 
   return (
     <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"} className={`${montserrat.variable} ${lato.variable}`}>
       <body className="font-secondary antialiased">
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          {children}
-        </NextIntlClientProvider>
+        <NextIntlClientProvider messages={messages}>{children}</NextIntlClientProvider>
       </body>
     </html>
   )
