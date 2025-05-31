@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Check, Star, Users, Crown } from 'lucide-react';
-import { FormspreeCtaForm } from '@/components/form-spree-cta-form'; // Adjust path as needed
+import { FormspreeCtaForm } from '@/components/form-spree-cta-form';
 
 export function WhyJoinSection() {
   const t = useTranslations('WhyJoin');

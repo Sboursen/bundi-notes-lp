@@ -1,5 +1,6 @@
 "use client"
 
+import Image from 'next/image';
 import { useTranslations } from "next-intl"
 import { Card, CardContent } from "@/components/ui/card"
 import { Quote } from "lucide-react"
@@ -28,9 +29,12 @@ export function FounderSection() {
                   {t("quote")}
                 </blockquote>
                 <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 bg-brand-gold rounded-full flex items-center justify-center">
-                    <span className="text-white font-bold">F</span>
-                  </div>
+                  <Image
+                    className='rounded-full'
+                    src="./founder.jpeg"
+                    alt="Founder avatar"
+                    width={40}
+                    height={40}></Image>
                   <div>
                     <p className="font-medium text-brand-light-text">{t("role.title")}</p>
                     <p className="text-sm text-brand-light-text/70">{t("role.company")}</p>

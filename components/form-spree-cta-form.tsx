@@ -71,7 +71,7 @@ export function FormspreeCtaForm({
         }
         setIsSubmitted(false);
       }
-    } catch (submissionError) {
+    } catch {
       setError('An unexpected error occurred. Please try again.');
       setIsSubmitted(false);
     } finally {

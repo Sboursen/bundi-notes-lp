@@ -1,32 +1,33 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import LanguageSwitcher from './language-switcher';
 import { FormspreeCtaForm } from '@/components/form-spree-cta-form';
 
 export function Header() {
   const t = useTranslations('Header');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [logoError, setLogoError] = useState(false);
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
-    setIsMobileMenuOpen(false); // Close mobile menu on navigation
+    setIsMobileMenuOpen(false);
   };
 
-  // Define styles for header forms
   const headerInputClass =
     'border-brand-silver focus:border-brand-gold text-sm';
   const headerButtonClass =
     'bg-brand-gold hover:bg-brand-gold/90 text-white px-4';
   const headerSuccessContainerClassDesktop =
     'flex items-center gap-2 text-brand-gold font-medium text-sm';
-  const headerSuccessTextClassDesktop = ''; // Text is part of the container
+  const headerSuccessTextClassDesktop = '';
   const headerSuccessContainerClassMobile =
     'p-3 bg-brand-gold/10 border border-brand-gold/20 rounded-lg';
   const headerSuccessTextClassMobile =
@@ -37,11 +38,34 @@ export function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-brand-black rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-lg font-primary">
-                B
-              </span>
+          <div
+            className="flex items-center gap-3 cursor-pointer"
+            onClick={() => scrollToSection('hero')}
+          >
+            {' '}
+            <div className="w-10 h-10 rounded-full flex items-center justify-center overflow-hidden">
+              {' '}
+              {!logoError ? (
+                <Image
+                  src="./icon.png"
+                  alt="Bundi Notes Logo"
+                  width={40}
+                  height={40}
+                  onError={() => {
+                    console.warn(
+                      'Logo image failed to load, showing fallback.',
+                    );
+                    setLogoError(true);
+                  }}
+                />
+              ) : (
+                // Fallback: Styled "B"
+                <div className="w-full h-full bg-brand-black flex items-center justify-center">
+                  <span className="text-white font-bold text-lg font-primary">
+                    B
+                  </span>
+                </div>
+              )}
             </div>
             <span className="text-xl font-bold text-brand-black font-primary">
               Bundi Notes
@@ -50,7 +74,6 @@ export function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
-            {/* ... nav links ... */}
             <button
               onClick={() => scrollToSection('how-it-works')}
               className="text-brand-black/70 hover:text-brand-gold font-secondary font-medium transition-colors"
@@ -78,7 +101,7 @@ export function Header() {
               emailPlaceholder={t('Hero.emailPlaceholder')}
               ctaButtonText={t('Navigation.joinWaitlist')}
               successMessageText={`✓ ${t('Hero.successMessage')}`}
-              className="flex gap-2" // Form wrapper class
+              className="flex gap-2"
               inputCustomClass={`w-48 ${headerInputClass}`}
               buttonCustomClass={headerButtonClass}
               successMessageContainerClass={headerSuccessContainerClassDesktop}
@@ -96,7 +119,7 @@ export function Header() {
             </Button>
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="p-2 text-brand-black hover:text-brand-gold transition-colors lg:hidden" 
+              className="p-2 text-brand-black hover:text-brand-gold transition-colors lg:hidden"
             >
               {isMobileMenuOpen ? (
                 <X className="w-5 h-5" />
@@ -110,9 +133,7 @@ export function Header() {
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
           <div className="lg:hidden border-t border-brand-silver/20 py-6 px-4 bg-white">
-            {' '}
             <nav className="flex flex-col gap-4">
-              {/* ... mobile nav links ... */}
               <button
                 onClick={() => scrollToSection('how-it-works')}
                 className="text-start text-brand-black/70 hover:text-brand-gold font-secondary font-medium transition-colors py-3"
@@ -134,8 +155,6 @@ export function Header() {
               <div className="py-3">
                 <LanguageSwitcher />
               </div>
-
-              {/* Mobile Email Form */}
               <div className="pt-6 border-t border-brand-silver/20">
                 <FormspreeCtaForm
                   emailPlaceholder={t('Hero.emailPlaceholder')}
