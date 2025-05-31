@@ -21,7 +21,9 @@
       "emailPlaceholder": "Ingiza barua pepe yako",
       "ctaButton": "Jiunge na Orodha ya Kusubiri",
       "successMessage": "🎉 Karibu kwenye mapinduzi! Angalia barua pepe yako kwa uthibitisho.",
-      "belowCta": "Kuwa miongoni mwa wanafunzi 1,000 wa kwanza kupata uzoefu wa siku zijazo za kujifunza"
+      "belowCta": "Kuwa miongoni mwa wanafunzi 1,000 wa kwanza kupata uzoefu wa siku zijazo za kujifunza",
+      "videoAltText": "Hakikisho la video ya matangazo",
+      "playVideoAriaLabel": "Cheza video ya matangazo"
     }
   },
   "Problem": {

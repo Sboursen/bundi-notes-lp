@@ -21,7 +21,9 @@
       "emailPlaceholder": "Enter your email",
       "ctaButton": "Join Waitlist",
       "successMessage": "🎉 Welcome to the revolution! Check your email for confirmation.",
-      "belowCta": "Be among the first 1,000 students to experience the future of learning"
+      "belowCta": "Be among the first 1,000 students to experience the future of learning",
+      "videoAltText": "Promotional video preview",
+      "playVideoAriaLabel": "Play promotional video"
     }
   },
   "Problem": {

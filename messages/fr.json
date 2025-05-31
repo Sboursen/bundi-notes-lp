@@ -21,7 +21,9 @@
       "emailPlaceholder": "Entrez votre email",
       "ctaButton": "Rejoindre la liste d'attente",
       "successMessage": "🎉 Bienvenue dans la révolution ! Vérifiez votre email pour confirmation.",
-      "belowCta": "Soyez parmi les 1 000 premiers étudiants à découvrir le futur de l'apprentissage"
+      "belowCta": "Soyez parmi les 1 000 premiers étudiants à découvrir le futur de l'apprentissage",
+      "videoAltText": "Aperçu de la vidéo promotionnelle",
+      "playVideoAriaLabel": "Lire la vidéo promotionnelle"
     }
   },
   "Problem": {

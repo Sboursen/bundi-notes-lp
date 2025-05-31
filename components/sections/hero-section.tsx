@@ -1,12 +1,20 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import Image from 'next/image'; // Import next/image
 import { Badge } from '@/components/ui/badge';
-import { Users, Calendar } from 'lucide-react';
+import { Users, Calendar, Play } from 'lucide-react'; // Import Play icon
 import { FormspreeCtaForm } from '@/components/form-spree-cta-form';
 
 export function HeroSection() {
   const t = useTranslations('Header');
+
+  // Placeholder for actual video play functionality
+  const handlePlayVideo = () => {
+    // TODO: Implement video playback (e.g., open a modal with an iframe or video element)
+    console.log('Play video action triggered');
+    // Example: window.open('your-video-url', '_blank');
+  };
 
   return (
     <section
@@ -17,7 +25,6 @@ export function HeroSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-4">
-              {/* ... badge, title, subtitle ... */}
               <Badge
                 variant="outline"
                 className="border-brand-gold text-brand-gold bg-brand-gold/10"
@@ -39,7 +46,6 @@ export function HeroSection() {
 
             <div className="space-y-4">
               <div className="flex items-center gap-4 text-sm text-brand-light-text/60">
-                {/* ... stats ... */}
                 <div className="flex items-center gap-2">
                   <Users className="w-4 h-4" />
                   <span>{t('Hero.stats.students')}</span>
@@ -65,19 +71,39 @@ export function HeroSection() {
             </div>
           </div>
 
+          {/* START: Updated Hero Visual (Video Player Design) */}
           <div className="relative">
-            {/* ... hero visual ... */}
-            <div className="aspect-square bg-gradient-to-br from-brand-gold/30 to-brand-light-text/20 rounded-2xl flex items-center justify-center border border-brand-light-text/20">
-              <div className="text-center space-y-4">
-                <div className="w-24 h-24 bg-brand-black rounded-full mx-auto flex items-center justify-center">
-                  <span className="text-2xl font-bold text-white">B</span>
-                </div>
-                <p className="text-brand-light-text/60 font-secondary">
-                  Product mockup coming soon
-                </p>
+            <div className="group relative aspect-square rounded-2xl overflow-hidden border border-brand-light-text/20 shadow-lg">
+              {/* Background Image (First Frame) */}
+              <Image
+                // IMPORTANT: Replace with your actual image path/URL
+                // e.g., /images/hero-video-preview.jpg (place in /public/images folder)
+                // or a remote URL: https://example.com/your-image.jpg
+                src="./hero.png"
+                alt={t('Hero.videoAltText') || 'Video preview'}
+                layout="fill"
+                objectFit="cover"
+                priority // Good for LCP if this is a key visual
+                className="transition-transform duration-500 group-hover:scale-105"
+              />
+
+              {/* Overlay and Play Button */}
+              <div className="absolute inset-0 flex items-center justify-center bg-black/30 transition-colors duration-300 group-hover:bg-black/40">
+                <button
+                  type="button"
+                  onClick={handlePlayVideo}
+                  aria-label={t('Hero.playVideoAriaLabel') || 'Play video'}
+                  className="w-20 h-20 lg:w-24 lg:h-24 bg-brand-gold/80 hover:bg-brand-gold text-white rounded-full flex items-center justify-center transition-all duration-300 ease-in-out transform group-hover:scale-110 focus:outline-none focus-visible:ring-4 focus-visible:ring-brand-gold/50 focus-visible:ring-offset-2 focus-visible:ring-offset-brand-black"
+                >
+                  <Play
+                    className="w-10 h-10 lg:w-12 lg:h-12"
+                    fill="currentColor"
+                  />
+                </button>
               </div>
             </div>
           </div>
+          {/* END: Updated Hero Visual (Video Player Design) */}
         </div>
       </div>
     </section>

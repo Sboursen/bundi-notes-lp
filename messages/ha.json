@@ -21,7 +21,9 @@
       "emailPlaceholder": "Shigar da imel ɗinka",
       "ctaButton": "Shiga Jerin Jira",
       "successMessage": "🎉 Barka da zuwa juyin ilimi! Ka duba imel ɗinka don tabbatarwa.",
-      "belowCta": "Ka kasance cikin ɗalibai 1,000 na farko da za su sami damar samun koyon nan gaba"
+      "belowCta": "Ka kasance cikin ɗalibai 1,000 na farko da za su sami damar samun koyon nan gaba",
+      "videoAltText": "Kallon farko na bidiyon talla",
+      "playVideoAriaLabel": "Kunna bidiyon talla"
     }
   },
   "Problem": {
