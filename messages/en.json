@@ -3,24 +3,26 @@
     "siteTitle": "Bundi Notes - Transform How You Learn",
     "siteDescription": "The AI study partner that transforms how you learn. Record lectures, ask questions to your notes, and finally understand—not just memorize."
   },
-  "Navigation": {
-    "howItWorks": "How It Works",
-    "ourMission": "Our Mission",
-    "faq": "FAQ",
-    "joinWaitlist": "Join Waitlist"
-  },
-  "Hero": {
-    "badge": "Launching Spring 2026",
-    "title": "The AI Study Partner That Transforms How You Learn",
-    "subtitle": "Record lectures, ask questions to your own notes, and finally understand—not just memorize. Join the revolution in education.",
-    "stats": {
-      "students": "1,247 students waiting",
-      "countries": "23 countries"
+  "Header": {
+    "Navigation": {
+      "howItWorks": "How It Works",
+      "ourMission": "Our Mission",
+      "faq": "FAQ",
+      "joinWaitlist": "Join Waitlist"
     },
-    "emailPlaceholder": "Enter your email",
-    "ctaButton": "Join Waitlist",
-    "successMessage": "🎉 Welcome to the revolution! Check your email for confirmation.",
-    "belowCta": "Be among the first 1,000 students to experience the future of learning"
+    "Hero": {
+      "badge": "Launching Spring 2026",
+      "title": "The AI Study Partner That Transforms How You Learn",
+      "subtitle": "Record lectures, ask questions to your own notes, and finally understand—not just memorize. Join the revolution in education.",
+      "stats": {
+        "students": "1,247 students waiting",
+        "countries": "23 countries"
+      },
+      "emailPlaceholder": "Enter your email",
+      "ctaButton": "Join Waitlist",
+      "successMessage": "🎉 Welcome to the revolution! Check your email for confirmation.",
+      "belowCta": "Be among the first 1,000 students to experience the future of learning"
+    }
   },
   "Problem": {
     "title": "Meet Idir, a 16-year-old student in Morocco",
@@ -220,8 +222,5 @@
       "successMessage": "🎉 You're in! Welcome to the future of learning.",
       "disclaimer": "No spam, unsubscribe anytime. Only 753 spots left for early access."
     }
-  },
-  "Hero": {
-    "emailPlaceholder": "Enter your email"
   }
 }

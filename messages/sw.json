@@ -3,24 +3,26 @@
     "siteTitle": "Bundi Notes - Badilisha Jinsi Unavyojifunza",
     "siteDescription": "Mshirika wa kujifunza wa AI anayebadilisha jinsi unavyojifunza. Rekodi masomo, uliza maswali kwa maelezo yako, na hatimaye elewa - sio kuhifadhi tu."
   },
-  "Navigation": {
-    "howItWorks": "Jinsi Inavyofanya Kazi",
-    "ourMission": "Dhamira Yetu",
-    "faq": "Maswali Yanayoulizwa Mara kwa Mara",
-    "joinWaitlist": "Jiunge na Orodha ya Kusubiri"
-  },
-  "Hero": {
-    "badge": "Inazinduliwa Majira ya Kuchipua 2026",
-    "title": "Mshirika wa Kujifunza wa AI Anayebadilisha Jinsi Unavyojifunza",
-    "subtitle": "Rekodi masomo, uliza maswali kwa maelezo yako, na hatimaye elewa - sio kuhifadhi tu. Jiunge na mapinduzi ya elimu.",
-    "stats": {
-      "students": "Wanafunzi 1,247 wanasubiri",
-      "countries": "Nchi 23"
+  "Header": {
+    "Navigation": {
+      "howItWorks": "Jinsi Inavyofanya Kazi",
+      "ourMission": "Dhamira Yetu",
+      "faq": "Maswali Yanayoulizwa Mara kwa Mara",
+      "joinWaitlist": "Jiunge na Orodha ya Kusubiri"
     },
-    "emailPlaceholder": "Ingiza barua pepe yako",
-    "ctaButton": "Jiunge na Orodha ya Kusubiri",
-    "successMessage": "🎉 Karibu kwenye mapinduzi! Angalia barua pepe yako kwa uthibitisho.",
-    "belowCta": "Kuwa miongoni mwa wanafunzi 1,000 wa kwanza kupata uzoefu wa siku zijazo za kujifunza"
+    "Hero": {
+      "badge": "Inazinduliwa Majira ya Kuchipua 2026",
+      "title": "Mshirika wa Kujifunza wa AI Anayebadilisha Jinsi Unavyojifunza",
+      "subtitle": "Rekodi masomo, uliza maswali kwa maelezo yako, na hatimaye elewa - sio kuhifadhi tu. Jiunge na mapinduzi ya elimu.",
+      "stats": {
+        "students": "Wanafunzi 1,247 wanasubiri",
+        "countries": "Nchi 23"
+      },
+      "emailPlaceholder": "Ingiza barua pepe yako",
+      "ctaButton": "Jiunge na Orodha ya Kusubiri",
+      "successMessage": "🎉 Karibu kwenye mapinduzi! Angalia barua pepe yako kwa uthibitisho.",
+      "belowCta": "Kuwa miongoni mwa wanafunzi 1,000 wa kwanza kupata uzoefu wa siku zijazo za kujifunza"
+    }
   },
   "Problem": {
     "title": "Mkutane na Idir, mwanafunzi wa miaka 16 nchini Morocco",

@@ -10,7 +10,7 @@ import { ArrowRight, Menu, X } from "lucide-react"
 import LanguageSwitcher from "./language-switcher"
 
 export function Header() {
-  const t = useTranslations()
+  const t = useTranslations("Header")
   const [email, setEmail] = useState("")
   const [isSubmitted, setIsSubmitted] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)

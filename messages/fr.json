@@ -3,24 +3,26 @@
     "siteTitle": "Bundi Notes - Transformez votre façon d'apprendre",
     "siteDescription": "Le partenaire d'étude IA qui transforme votre façon d'apprendre. Enregistrez les cours, posez des questions à vos notes et comprenez enfin - pas seulement mémorisez."
   },
-  "Navigation": {
-    "howItWorks": "Comment ça marche",
-    "ourMission": "Notre mission",
-    "faq": "FAQ",
-    "joinWaitlist": "Rejoindre la liste d'attente"
-  },
-  "Hero": {
-    "badge": "Lancement au printemps 2026",
-    "title": "Le partenaire d'étude IA qui transforme votre façon d'apprendre",
-    "subtitle": "Enregistrez les cours, posez des questions à vos propres notes et comprenez enfin - pas seulement mémorisez. Rejoignez la révolution de l'éducation.",
-    "stats": {
-      "students": "1 247 étudiants en attente",
-      "countries": "23 pays"
+  "Header": {
+    "Navigation": {
+      "howItWorks": "Comment ça marche",
+      "ourMission": "Notre mission",
+      "faq": "FAQ",
+      "joinWaitlist": "Rejoindre la liste d'attente"
     },
-    "emailPlaceholder": "Entrez votre email",
-    "ctaButton": "Rejoindre la liste d'attente",
-    "successMessage": "🎉 Bienvenue dans la révolution ! Vérifiez votre email pour confirmation.",
-    "belowCta": "Soyez parmi les 1 000 premiers étudiants à découvrir le futur de l'apprentissage"
+    "Hero": {
+      "badge": "Lancement au printemps 2026",
+      "title": "Le partenaire d'étude IA qui transforme votre façon d'apprendre",
+      "subtitle": "Enregistrez les cours, posez des questions à vos propres notes et comprenez enfin - pas seulement mémorisez. Rejoignez la révolution de l'éducation.",
+      "stats": {
+        "students": "1 247 étudiants en attente",
+        "countries": "23 pays"
+      },
+      "emailPlaceholder": "Entrez votre email",
+      "ctaButton": "Rejoindre la liste d'attente",
+      "successMessage": "🎉 Bienvenue dans la révolution ! Vérifiez votre email pour confirmation.",
+      "belowCta": "Soyez parmi les 1 000 premiers étudiants à découvrir le futur de l'apprentissage"
+    }
   },
   "Problem": {
     "title": "Rencontrez Idir, un étudiant de 16 ans au Maroc",

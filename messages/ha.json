@@ -3,24 +3,26 @@
     "siteTitle": "Bundi Notes - Canza Yadda Kake Koyo",
     "siteDescription": "Abokin koyo na AI wanda ke canza yadda kake koyo. Ka ɗauki darussa, ka yi tambayoyi ga bayanankan ka, kuma ka fahimta - ba kawai ka haddace ba."
   },
-  "Navigation": {
-    "howItWorks": "Yadda Yake Aiki",
-    "ourMission": "Manufarmu",
-    "faq": "Tambayoyi da Ake Yawan Yi",
-    "joinWaitlist": "Shiga Jerin Jira"
-  },
-  "Hero": {
-    "badge": "Ana Kaddamarwa a Bazara 2026",
-    "title": "Abokin Koyo na AI Wanda Ke Canza Yadda Kake Koyo",
-    "subtitle": "Ka ɗauki darussa, ka yi tambayoyi ga bayanankan ka, kuma ka fahimta - ba kawai ka haddace ba. Ka shiga juyin ilimi.",
-    "stats": {
-      "students": "Ɗalibai 1,247 suna jira",
-      "countries": "Ƙasashe 23"
+  "Header": {
+    "Navigation": {
+      "howItWorks": "Yadda Yake Aiki",
+      "ourMission": "Manufarmu",
+      "faq": "Tambayoyi da Ake Yawan Yi",
+      "joinWaitlist": "Shiga Jerin Jira"
     },
-    "emailPlaceholder": "Shigar da imel ɗinka",
-    "ctaButton": "Shiga Jerin Jira",
-    "successMessage": "🎉 Barka da zuwa juyin ilimi! Ka duba imel ɗinka don tabbatarwa.",
-    "belowCta": "Ka kasance cikin ɗalibai 1,000 na farko da za su sami damar samun koyon nan gaba"
+    "Hero": {
+      "badge": "Ana Kaddamarwa a Bazara 2026",
+      "title": "Abokin Koyo na AI Wanda Ke Canza Yadda Kake Koyo",
+      "subtitle": "Ka ɗauki darussa, ka yi tambayoyi ga bayanankan ka, kuma ka fahimta - ba kawai ka haddace ba. Ka shiga juyin ilimi.",
+      "stats": {
+        "students": "Ɗalibai 1,247 suna jira",
+        "countries": "Ƙasashe 23"
+      },
+      "emailPlaceholder": "Shigar da imel ɗinka",
+      "ctaButton": "Shiga Jerin Jira",
+      "successMessage": "🎉 Barka da zuwa juyin ilimi! Ka duba imel ɗinka don tabbatarwa.",
+      "belowCta": "Ka kasance cikin ɗalibai 1,000 na farko da za su sami damar samun koyon nan gaba"
+    }
   },
   "Problem": {
     "title": "Ku hadu da Idir, ɗalibi mai shekara 16 a Morocco",
