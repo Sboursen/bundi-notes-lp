@@ -96,7 +96,9 @@
       "heading": "Miezi sita baadaye...",
       "part1": "Idir hahangaiki tena darasani. Anarekodi kila somo, anauliza maswali kwa mshirika wake wa kujifunza wa AI, na hatimaye anaelewa badala ya kuhifadhi tu.",
       "part2": "Alama zake ziliimarika, lakini muhimu zaidi, imani yake ilipanda. Yeye sio tu mwanafunzi bora - yeye ni mwanafunzi mwenye udadisi zaidi na anayeshiriki.",
-      "highlight": "Hii ni mabadiliko tunayojenga kwa kila mwanafunzi, kila mahali."
+      "highlight": "Hii ni mabadiliko tunayojenga kwa kila mwanafunzi, kila mahali.",
+      "videoAltText": "Hakikisho la video ya hadithi ya mafanikio ya Idir",
+      "playVideoAriaLabel": "Cheza video ya hadithi ya mafanikio ya Idir"
     },
     "global": {
       "heading": "Kutoka Morocco hadi Madagascar",

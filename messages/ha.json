@@ -96,7 +96,9 @@
       "heading": "Watanni shida daga baya...",
       "part1": "Idir ba ya ƙara wahala a aji. Yana ɗaukar kowane darasi, yana yi wa abokin koyonsa na AI tambayoyi, kuma yana fahimta a ƙarshe maimakon kawai haddace.",
       "part2": "Alamominsa sun inganta, amma mafi muhimmanci, amincewarsa ta ɗaukaka. Ba kawai ɗalibi mafi kyau ba ne - yana da ƙarin sha'awar koyo kuma mai shiga aji.",
-      "highlight": "Wannan shine canjin da muke gina wa kowane ɗalibi, ko'ina."
+      "highlight": "Wannan shine canjin da muke gina wa kowane ɗalibi, ko'ina.",
+      "videoAltText": "Kallon farko na bidiyon labarin nasarar Idir",
+      "playVideoAriaLabel": "Kunna bidiyon labarin nasarar Idir"
     },
     "global": {
       "heading": "Daga Morocco zuwa Madagascar",
