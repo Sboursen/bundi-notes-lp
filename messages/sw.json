@@ -75,17 +75,20 @@
       "step1": {
         "label": "Hatua ya 1",
         "title": "Rekodi Darasa Lako",
-        "description": "Bonyeza tu kurekodi (kwa ruhusa) na uzingatie kusikiliza. Hakuna tena kuchagua kati ya kuelewa na kuchukua maelezo."
+        "description": "Bonyeza tu kurekodi (kwa ruhusa) na uzingatie kusikiliza. Hakuna tena kuchagua kati ya kuelewa na kuchukua maelezo.",
+        "imageAlt": "Kiolesura kinachoonyesha mchakato wa kurekodi sauti"
       },
       "step2": {
         "label": "Hatua ya 2",
         "title": "AI Inaelewa",
-        "description": "AI yetu inanakili na kuelewa kwa kina maudhui, ikiunda msingi wa maarifa unaotafutaka na wenye akili kutoka kwa masomo yako."
+        "description": "AI yetu inanakili na kuelewa kwa kina maudhui, ikiunda msingi wa maarifa unaotafutaka na wenye akili kutoka kwa masomo yako.",
+        "imageAlt": "UwMwakilishi wa kufikirika wa AI ikichakata data ya sauti"
       },
       "step3": {
         "label": "Hatua ya 3",
         "title": "Uliza na Jifunze",
-        "description": "Uliza maswali na upate majibu kutoka kwa maneno halisi ya mwalimu wako. Ni kama kuwa na mwalimu binafsi ambaye hasahau chochote."
+        "description": "Uliza maswali na upate majibu kutoka kwa maneno halisi ya mwalimu wako. Ni kama kuwa na mwalimu binafsi ambaye hasahau chochote.",
+        "imageAlt": "Kiolesura kinachoonyesha mwingiliano na maudhui yaliyonukuliwa na soga ya AI"
       }
     }
   },

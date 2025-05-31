@@ -75,17 +75,20 @@
       "step1": {
         "label": "Matakin 1",
         "title": "Ka Ɗauki Ajin Ka",
-        "description": "Ka danna ɗaukar kawai (da izini) kuma ka mai da hankali ga sauraro. Babu ƙarin zaɓi tsakanin fahimta da ɗaukar bayanai."
+        "description": "Ka danna ɗaukar kawai (da izini) kuma ka mai da hankali ga sauraro. Babu ƙarin zaɓi tsakanin fahimta da ɗaukar bayanai.",
+        "imageAlt": "Fuskar da ke nuna yadda ake yin rikodin murya"
       },
       "step2": {
         "label": "Matakin 2",
         "title": "AI Yana Fahimta",
-        "description": "AI ɗinmu yana rubuta kuma yana fahimtar abun da ke ciki a zurfi, yana ƙirƙirar tushen ilimi mai hankali kuma mai iya bincika daga darussan ka."
+        "description": "AI ɗinmu yana rubuta kuma yana fahimtar abun da ke ciki a zurfi, yana ƙirƙirar tushen ilimi mai hankali kuma mai iya bincika daga darussan ka.",
+        "imageAlt": "Hoton AI na sarrafa bayanan murya"
       },
       "step3": {
         "label": "Matakin 3",
         "title": "Tambaya & Koyo",
-        "description": "Ka yi tambayoyi kuma ka sami amsoshi daga ainihin kalmomin malamin ka. Yana kamar da malami na musamman wanda ba ya taɓa mantawa."
+        "description": "Ka yi tambayoyi kuma ka sami amsoshi daga ainihin kalmomin malamin ka. Yana kamar da malami na musamman wanda ba ya taɓa mantawa.",
+        "imageAlt": "Fuskar da ke nuna hulɗa da rubutaccen abun ciki da hira da AI"
       }
     }
   },

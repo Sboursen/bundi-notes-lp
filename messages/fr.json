@@ -75,17 +75,20 @@
       "step1": {
         "label": "Étape 1",
         "title": "Enregistrez votre cours",
-        "description": "Appuyez simplement sur enregistrer (avec permission) et concentrez-vous sur l'écoute. Plus besoin de choisir entre comprendre et prendre des notes."
+        "description": "Appuyez simplement sur enregistrer (avec permission) et concentrez-vous sur l'écoute. Plus besoin de choisir entre comprendre et prendre des notes.",
+        "imageAlt": "Interface montrant le processus d'enregistrement vocal"
       },
       "step2": {
         "label": "Étape 2",
         "title": "L'IA comprend",
-        "description": "Notre IA transcrit et comprend profondément le contenu, créant une base de connaissances intelligente et consultable à partir de vos cours."
+        "description": "Notre IA transcrit et comprend profondément le contenu, créant une base de connaissances intelligente et consultable à partir de vos cours.",
+        "imageAlt": "Représentation abstraite de l'IA traitant des données audio"
       },
       "step3": {
         "label": "Étape 3",
         "title": "Posez des questions et apprenez",
-        "description": "Posez des questions et obtenez des réponses à partir des mots réels de votre enseignant. C'est comme avoir un tuteur personnel qui n'oublie jamais rien."
+        "description": "Posez des questions et obtenez des réponses à partir des mots réels de votre enseignant. C'est comme avoir un tuteur personnel qui n'oublie jamais rien.",
+        "imageAlt": "Interface montrant l'interaction avec le contenu transcrit et le chat IA"
       }
     }
   },

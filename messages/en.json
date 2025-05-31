@@ -75,17 +75,20 @@
       "step1": {
         "label": "Step 1",
         "title": "Record Your Class",
-        "description": "Simply hit record (with permission) and focus on listening. No more choosing between understanding and note-taking."
+        "description": "Simply hit record (with permission) and focus on listening. No more choosing between understanding and note-taking.",
+        "imageAlt": "Interface showing the voice recording process"
       },
       "step2": {
         "label": "Step 2",
         "title": "AI Understands",
-        "description": "Our AI transcribes and deeply understands the content, creating a searchable, intelligent knowledge base from your lectures."
+        "description": "Our AI transcribes and deeply understands the content, creating a searchable, intelligent knowledge base from your lectures.",
+        "imageAlt": "Abstract representation of AI processing audio data"
       },
       "step3": {
         "label": "Step 3",
         "title": "Ask & Learn",
-        "description": "Ask questions and get answers from your teacher's actual words. It's like having a personal tutor who never forgets anything."
+        "description": "Ask questions and get answers from your teacher's actual words. It's like having a personal tutor who never forgets anything.",
+        "imageAlt": "Interface showing interaction with transcribed content and AI chat"
       }
     }
   },
